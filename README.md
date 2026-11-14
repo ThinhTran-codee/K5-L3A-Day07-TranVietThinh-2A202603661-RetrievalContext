@@ -3,7 +3,7 @@
 **Lớp:** L3A  
 **Corpus:** OpenStax Introduction to Computer Science
 **Kế thừa:** Day 6 Data Ingestion 
-**Repo nộp bài:** (`https://github.com/ThinhTran-codee/K5-L3A-Day07-TranVietThinh-2A202603661-Retrieval-Context-Engineering`)
+**Repo nộp bài:** (`https://github.com/ThinhTran-codee/K5-L3A-Day07-TranVietThinh-2A202603661-RetrievalContext`)
 
 ---
 
