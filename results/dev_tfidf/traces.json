@@ -1,0 +1,1202 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "What mathematical technique did Richard Bellman invent in 1953 to solve complex problems?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 22,
+        "evidence": "In 1953, Bellman invented dynamic programming,1 which is a mathematical optimization methodology and a technique for computer programming."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs_p22_para_000",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p22",
+        "page": 22,
+        "text": "Richard Bellman was a significant contributor to this effort. A mathematics professor at Princeton and later at Stanford in the 1940s, Bellman later went to work for the Rand Corporation, where he studied the theory of multistage decision processes. In 1953, Bellman invented dynamic programming,1 which is a mathematical optimization methodology and a technique for computer programming. With dynamic programming, complex problems are divided into more manageable subproblems. Each subproblem is solved, and the results are stored, ultimately resulting in a solution to the overall complex problem.2 With this approach, Bellman helped revolutionize computer programming and enable computer science to become a robust field. What Is Computer Science?",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.1 Computer Science",
+          "raw_char_count": 2930,
+          "norm_char_count": 2894,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 750
+        },
+        "score": 0.38377661672650265,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs_p22_para_003",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p22",
+        "page": 22,
+        "text": "Many computing innovations were initially developed for military research and communication purposes, including the predecessor to the Internet, the ARPANET (Figure 1.3). 1 S. Golomb, \"Richard E. Bellman 1920–1984,\" n.d. https://www.nae.edu/189177/RICHARD-E-BELLMAN-19201984 2 Geeks for Geeks, \"Dynamic Programming or DP,\" 2024. https://www.geeksforgeeks.org/dynamic-programming/ 3 D. E. Knuth, \"George Forsythe and the Development of Computer Science,\" Communications of the ACM, vol. 15, no.8, pp. 722–723. 1972. https://dl.acm.org/doi/pdf/10.1145/361532.361538 12 1 • Introduction to Computer Science Access for free at openstax.org",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.1 Computer Science",
+          "raw_char_count": 2930,
+          "norm_char_count": 2894,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 635
+        },
+        "score": 0.16495237033682145,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p40_para_004",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p40",
+        "page": 40,
+        "text": "Computers, algorithms, and mathematical models solve the problems that their creators wish to solve and encode the assumptions of their target populations. Supply and demand data for the data models are 30 1 • Introduction to Computer Science Access for free at openstax.org",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.3 Computer Science and the Future of Society",
+          "raw_char_count": 3099,
+          "norm_char_count": 3064,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 274
+        },
+        "score": 0.1520967039292068,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs_p22_para_003 | openstax-intro-cs:p22 | page 22]\nMany computing innovations were initially developed for military research and communication purposes, including the predecessor to the Internet, the ARPANET (Figure 1.3). 1 S. Golomb, \"Richard E. Bellman 1920–1984,\" n.d. https://www.nae.edu/189177/RICHARD-E-BELLMAN-19201984 2 Geeks for Geeks, \"Dynamic Programming or DP,\" 2024. https://www.geeksforgeeks.org/dynamic-programming/ 3 D. E. Knuth, \"George Forsythe and the Development of Computer Science,\" Communications of the ACM, vol. 15, no.8, pp. 722–723. 1972. https://dl.acm.org/doi/pdf/10.1145/361532.361538 12 1 • Introduction to Computer Science Access for free at openstax.org",
+    "context_ids": [
+      "openstax-intro-cs_p22_para_003"
+    ],
+    "context_chars": 702,
+    "elapsed_ms": 0.4490999854169786,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "Why is the ENIAC notable in computer history?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 23,
+        "evidence": "ENIAC is notable in computer history because it was the first general-purpose computer, meaning that it could run not just a single program but rather any program specified by a programmer."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs_p23_para_003",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p23",
+        "page": 23,
+        "text": "Instead of silicon, the ENIAC used the technology of a vacuum tube, a physical device like a light bulb that was used as memory in early digital computers. When the \"light\" in the vacuum tube is off, the vacuum tube represents the number 0. When the \"light\" is on, the vacuum tube represents the number 1. When thousands of vacuum tubes are combined in a logical way, we suddenly have memory. The ENIAC is notable in computer history because it was the first general-purpose computer, meaning that it could run not just a single program but rather any program specified by a programmer. The ENIAC was often run and programmed by women programmers (Figure 1.4). Despite its age and differences in hardware properties, it shares a fundamental and surprising similarity with modern computers.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.1 Computer Science",
+          "raw_char_count": 2979,
+          "norm_char_count": 2946,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 789
+        },
+        "score": 0.2447646038952697,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs_p45_para_000",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p45",
+        "page": 45,
+        "text": "Review Questions 1 . What is computer science? 2 . What two subjects does computer science combine the foundations of? a. math and engineering b. math and physics c. physics and engineering d. math and chemistry 3 . What can execute an algorithm? 4 . What enables the ENIAC (one of the first digital computers, invented in 1945) to be able to compute anything that can run on modern computers? a. Both the ENIAC and modern computers have memory. b. Both the ENIAC and modern computers share the same hardware. c. Both the ENIAC and modern computers are considered Turing-complete. d. Both the ENIAC and modern computers run the same software. 5 . What invention was credited as the first calculator? a. punch cards b. abacus c. Difference Machine d. ENIAC 6 .",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "Chapter 1 Review",
+          "raw_char_count": 2240,
+          "norm_char_count": 2190,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 759
+        },
+        "score": 0.23054318828376516,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p46_para_001",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p46",
+        "page": 46,
+        "text": "What are adversarial attacks and why is it important to study them? 17 . What is the relationship between artificial intelligence, image recognition, and neural networks? 18 . How do neural networks recognize objects in images? Conceptual Questions 1 . Give two definitions of computer science. How do they compare? 2 . Explain the concept of theoretical computer science. 3 . What is body-syntonic reasoning and how has it affected education? 4 . In terms of data science, what is a spreadsheet and why can it be said that by using spreadsheets, people are programming without realizing it? 5 . How do discovery and invention differ and how are these involved in computer science? 6 .",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "Chapter 1 Review",
+          "raw_char_count": 2514,
+          "norm_char_count": 2468,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 685
+        },
+        "score": 0.14019078667157375,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs_p46_para_001 | openstax-intro-cs:p46 | page 46]\nWhat are adversarial attacks and why is it important to study them? 17 . What is the relationship between artificial intelligence, image recognition, and neural networks? 18 . How do neural networks recognize objects in images? Conceptual Questions 1 . Give two definitions of computer science. How do they compare? 2 . Explain the concept of theoretical computer science. 3 . What is body-syntonic reasoning and how has it affected education? 4 . In terms of data science, what is a spreadsheet and why can it be said that by using spreadsheets, people are programming without realizing it? 5 . How do discovery and invention differ and how are these involved in computer science? 6 .",
+    "context_ids": [
+      "openstax-intro-cs_p46_para_001"
+    ],
+    "context_chars": 752,
+    "elapsed_ms": 0.365100015187636,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "What is an example of a task that neither computers nor humans can perform?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 25,
+        "evidence": "On the flip side, there are tasks that neither computers nor humans can perform, such as accurately predicting chaotic systems like long-term weather patterns."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs_p25_para_000",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p25",
+        "page": 25,
+        "text": "On the flip side, there are tasks that neither computers nor humans can perform, such as accurately predicting chaotic systems like long-term weather patterns. Despite advancements in artificial intelligence (AI), computer functions that perform tasks, such as visual perception and decision-making processes that usually are performed by human intelligence, these problems remain beyond our collective reach due to the inherent unpredictability and complexity of certain natural systems. Theoretical computer science is often emphasized in undergraduate computer science programs because academic computer science emerged from mathematics, often to the detriment of perspectives that center on the social and technical values embodied by applications of computer technology.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.1 Computer Science",
+          "raw_char_count": 4863,
+          "norm_char_count": 4811,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 775
+        },
+        "score": 0.26985842885249073,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs_p24_para_004",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p24",
+        "page": 24,
+        "text": "The answers to these questions suggest the limits of what we can achieve with computers from a technical perspective: Using mathematical ideas, is it possible to use a computer to compute all problems? If the answer to a problem is yes, how much of a computing resource is needed to get the answer? Clearly both humans and computers have their strengths and limitations. An example of a problem that humans can solve but computers struggle with is interpreting subtle emotions or making moral judgments in complex social situations. While computers can process data and recognize patterns, they cannot fully understand the nuances of human emotions or ethics, which often involve context, empathy, and experience. 14 1 • Introduction to Computer Science Access for free at openstax.org",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.1 Computer Science",
+          "raw_char_count": 3490,
+          "norm_char_count": 3451,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 785
+        },
+        "score": 0.19225287736666075,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p36_para_003",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p36",
+        "page": 36,
+        "text": "AI refers to a subfield of CS that is interested in solving problems that require the application of machine learning to human cognitive processes to achieve goals. AI research seeks to develop algorithm architectures that can make progress toward solving problems. One such example is image recognition, or the problem of identifying objects in an image. This problem is quite difficult for programmers to solve using traditional programming methods. Imagine having to define very precise rules or instructions that could identify an object in an image regardless of its position, size, lighting conditions, or perspective. As humans, we have an intuitive sense of the qualities of an object.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.3 Computer Science and the Future of Society",
+          "raw_char_count": 4352,
+          "norm_char_count": 4304,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 693
+        },
+        "score": 0.13449466825410933,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs_p36_para_003 | openstax-intro-cs:p36 | page 36]\nAI refers to a subfield of CS that is interested in solving problems that require the application of machine learning to human cognitive processes to achieve goals. AI research seeks to develop algorithm architectures that can make progress toward solving problems. One such example is image recognition, or the problem of identifying objects in an image. This problem is quite difficult for programmers to solve using traditional programming methods. Imagine having to define very precise rules or instructions that could identify an object in an image regardless of its position, size, lighting conditions, or perspective. As humans, we have an intuitive sense of the qualities of an object.",
+    "context_ids": [
+      "openstax-intro-cs_p36_para_003"
+    ],
+    "context_chars": 760,
+    "elapsed_ms": 0.5120999994687736,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "What early computer network, circa 1974, was an early predecessor to the Internet?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 23,
+        "evidence": "The ARPANET, circa 1974, was an early predecessor to the Internet. It allowed computers at Pentagon-funded research facilities to communicate over phone lines."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs_p23_para_000",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p23",
+        "page": 23,
+        "text": "Figure 1.3 The ARPANET, circa 1974, was an early predecessor to the Internet. It allowed computers at Pentagon-funded research facilities to communicate over phone lines. (credit: modification of \"Arpanet 1974\" by Yngvar/Wikipedia, Public Domain) What Is a Computer? While computer science is about much more than just computers, it helps to know a bit more about computers because they are an important component of computer science. All computers are made of physical, realworld material that we refer to as hardware. Hardware—which has four components, including processor, memory, network, and storage—is the computer component that enables computations. The processor can be regarded as the computer's \"brain,\" as it follows instructions from algorithms and processes data.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.1 Computer Science",
+          "raw_char_count": 2979,
+          "norm_char_count": 2946,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 778
+        },
+        "score": 0.35838964103855964,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs_p27_para_000",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p27",
+        "page": 27,
+        "text": "In one chapter of Black Software, Charlton McIlwain shares stories from \"The Vanguard\" of Black men and women who made a mark on computer science in its early years from the 1950s through the 1990s through the rise of personal computing and the Internet, but whose histories have largely been erased by the dominant Silicon Valley narratives. Their accomplishments include leading computer stores and developing early Internet social media platforms, news, and blog websites. For example, Roy L. Clay Sr., a member of the Silicon Valley Engineering Hall of Fame, helped Hewlett-Packard develop its first computer lab and create the company's first computers.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.1 Computer Science",
+          "raw_char_count": 4412,
+          "norm_char_count": 4363,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 658
+        },
+        "score": 0.14872305115304474,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p26_para_000",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p26",
+        "page": 26,
+        "text": "software engineers, designed their computer science curricula to teach the concepts that early computer companies such as IBM desperately needed. These courses had an emphasis on efficiency, performance, and scalability, because a university computer science education was only intended to produce software engineers. We live with the consequences of this design even today: the structure of this textbook inherits the borders between concepts originally imagined in the 1970s when university computer science education was only intended to prepare students for software development jobs.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.1 Computer Science",
+          "raw_char_count": 2297,
+          "norm_char_count": 2270,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 588
+        },
+        "score": 0.1327220840848801,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs_p27_para_000 | openstax-intro-cs:p27 | page 27]\nIn one chapter of Black Software, Charlton McIlwain shares stories from \"The Vanguard\" of Black men and women who made a mark on computer science in its early years from the 1950s through the 1990s through the rise of personal computing and the Internet, but whose histories have largely been erased by the dominant Silicon Valley narratives. Their accomplishments include leading computer stores and developing early Internet social media platforms, news, and blog websites. For example, Roy L. Clay Sr., a member of the Silicon Valley Engineering Hall of Fame, helped Hewlett-Packard develop its first computer lab and create the company's first computers.",
+    "context_ids": [
+      "openstax-intro-cs_p27_para_000"
+    ],
+    "context_chars": 725,
+    "elapsed_ms": 0.37090000114403665,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "How do cooking recipes exemplify algorithmic procedures in computer science?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 21,
+        "evidence": "recipes to prepare food are algorithms with precise directions for ingredient amounts, the process to combine these, and the temperatures and cooking methods needed to transform the combined ingredients into a specific dish."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs_p46_para_001",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p46",
+        "page": 46,
+        "text": "What are adversarial attacks and why is it important to study them? 17 . What is the relationship between artificial intelligence, image recognition, and neural networks? 18 . How do neural networks recognize objects in images? Conceptual Questions 1 . Give two definitions of computer science. How do they compare? 2 . Explain the concept of theoretical computer science. 3 . What is body-syntonic reasoning and how has it affected education? 4 . In terms of data science, what is a spreadsheet and why can it be said that by using spreadsheets, people are programming without realizing it? 5 . How do discovery and invention differ and how are these involved in computer science? 6 .",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "Chapter 1 Review",
+          "raw_char_count": 2514,
+          "norm_char_count": 2468,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 685
+        },
+        "score": 0.212971067736793,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p35_para_002",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p35",
+        "page": 35,
+        "text": "For example, the computational science application of weather prediction combines knowledge about various subfields of computer science (algorithms, distributed computing, computer systems) with knowledge about climate systems. Theoretical computer scientists are increasingly interested in asking questions such as, \"How do we design, analyze, and evaluate algorithms or information systems for fairness? How do we even define fairness in a computer system that strips away the complexities of the real world? What ideas or information are encoded in the data?",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.3 Computer Science and the Future of Society",
+          "raw_char_count": 2479,
+          "norm_char_count": 2442,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 561
+        },
+        "score": 0.1621875091461738,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p20_para_001",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p20",
+        "page": 20,
+        "text": "To help you understand this, the next section will explain how computer science came to be and discuss the field's potential. 1.1 Computer Science Learning Objectives By the end of this section, you will be able to: • Discuss the history that led to the creation of computer science as a field • Define computer science • Assess what computer science can do, as well as what it should not do The field of computer science (CS) is the study of computing, which includes all phenomena related to computers, such as the Internet. With foundations in engineering and mathematics, computer science focuses on studying algorithms. An algorithm is a sequence of precise instructions that enables computing. This includes components computers use to process information.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.1 Computer Science",
+          "raw_char_count": 3980,
+          "norm_char_count": 3932,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 762
+        },
+        "score": 0.15427238046514175,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs_p46_para_001 | openstax-intro-cs:p46 | page 46]\nWhat are adversarial attacks and why is it important to study them? 17 . What is the relationship between artificial intelligence, image recognition, and neural networks? 18 . How do neural networks recognize objects in images? Conceptual Questions 1 . Give two definitions of computer science. How do they compare? 2 . Explain the concept of theoretical computer science. 3 . What is body-syntonic reasoning and how has it affected education? 4 . In terms of data science, what is a spreadsheet and why can it be said that by using spreadsheets, people are programming without realizing it? 5 . How do discovery and invention differ and how are these involved in computer science? 6 .",
+    "context_ids": [
+      "openstax-intro-cs_p46_para_001"
+    ],
+    "context_chars": 752,
+    "elapsed_ms": 0.2911000046879053,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "By what percentage does the U.S. Bureau of Labor Statistics project jobs for computer research scientists to grow by 2033?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 28,
+        "evidence": "by 2033, the number of jobs available for computer and information research scientists is expected to increase by 26%."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs_p28_para_000",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p28",
+        "page": 28,
+        "text": "GLOBAL ISSUES IN TECHNOLOGY H-1B Visas Address Worker Shortages According to the U.S. Bureau of Labor Statistics (BLS), by 2033, the number of jobs available for computer and information research scientists is expected to increase by 26%. This is much faster job growth than the average expected in total for all occupations. BLS predicts that this will result in about 3,400 job openings per year in technology, including computer science.8 To fill some of these jobs, U.S. employers likely will continue to rely on H-1B visas. This visa enables employers to recruit well-educated professionals from other countries.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.1 Computer Science",
+          "raw_char_count": 4502,
+          "norm_char_count": 4450,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 617
+        },
+        "score": 0.35107142289855614,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs_p28_para_005",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p28",
+        "page": 28,
+        "text": "Based on her fieldwork in Paraguay, Ames argues that the project failed to achieve its goals for a variety of reasons, such as electricity infrastructure problems, hardware reliability issues, software frustrations, and a lack of curricular materials. Ames argues that \"charismatic technologies are deceptive: they make both technological adoption and social change appear straightforward instead of as a difficult process fraught with choices and politics.\" When the computers did 8 U.S. Bureau of Labor Statistics, \"Computer and Information Research Scientists: Job Outlook,\" 2024. https://www.bls.gov/ooh/ computer-and-information-technology/computer-and-information-research-scientists.htm#tab-6 9 U.S. Citizenship and Immigration Services, \"H-1B Specialty Occupations,\" 2024.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.1 Computer Science",
+          "raw_char_count": 4502,
+          "norm_char_count": 4450,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 780
+        },
+        "score": 0.26981340809831195,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p28_para_004",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p28",
+        "page": 28,
+        "text": "Computer scientists employ a variety of methods drawing from the social sciences to produce effective solutions. However, designing for diverse communities is difficult, particularly when the designers have little direct experience with the people they wish to serve. In The Charisma Machine, Morgan Ames criticizes the One Laptop Per Child (OLPC) project, a nonprofit initiative announced in 2005 by the Massachusetts Institute of Technology Media Lab. The project attempted to bring computer technology in the form of small, sturdy, and cheap laptops that were powered by a hand crank to children in the Global South.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.1 Computer Science",
+          "raw_char_count": 4502,
+          "norm_char_count": 4450,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 619
+        },
+        "score": 0.1558785865564821,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs_p28_para_000 | openstax-intro-cs:p28 | page 28]\nGLOBAL ISSUES IN TECHNOLOGY H-1B Visas Address Worker Shortages According to the U.S. Bureau of Labor Statistics (BLS), by 2033, the number of jobs available for computer and information research scientists is expected to increase by 26%. This is much faster job growth than the average expected in total for all occupations. BLS predicts that this will result in about 3,400 job openings per year in technology, including computer science.8 To fill some of these jobs, U.S. employers likely will continue to rely on H-1B visas. This visa enables employers to recruit well-educated professionals from other countries.",
+    "context_ids": [
+      "openstax-intro-cs_p28_para_000"
+    ],
+    "context_chars": 684,
+    "elapsed_ms": 0.46540002222172916,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "Under what condition do spreadsheets become prone to data management problems?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 31,
+        "evidence": "The more data and the more people involved in a spreadsheet, the greater the potential for spreadsheet problems."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs_p31_para_000",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p31",
+        "page": 31,
+        "text": "very same power that limits spreadsheets as a data management and large-scale data analysis tool. The more data and the more people involved in a spreadsheet, the greater the potential for spreadsheet problems. The interdisciplinary field that applies computing to managing data and extracting information from data is called data science. Data scientists are practitioners who combine computing and data analysis skills with the domain knowledge specific to their field or business. The demand for data scientists is becoming increasingly important as more and more research and business contexts involve analyzing big data, or very large datasets that are not easily processed using spreadsheets.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.2 Computer Science across the Disciplines",
+          "raw_char_count": 4568,
+          "norm_char_count": 4517,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 698
+        },
+        "score": 0.23610745155258614,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs_p30_para_004",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p30",
+        "page": 30,
+        "text": "This shortcoming attests not only to the technical limit on the number of rows supported by spreadsheets, but also to the design limitations of software that fails to communicate data loss, irregularities, or errors to users. Errors in spreadsheet software data entry can often go unnoticed because spreadsheets do not enforce data types. Cells can contain any content: numbers, currencies, names, percentages, labels, and legends. The meaning of a cell is determined largely by the user rather than the software. Spreadsheets are an expressive and accessible technology for data analysis, but this creative power that spreadsheets afford to users is the 20 1 • Introduction to Computer Science Access for free at openstax.org",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.2 Computer Science across the Disciplines",
+          "raw_char_count": 3658,
+          "norm_char_count": 3612,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 726
+        },
+        "score": 0.22640752401404748,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p46_para_001",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p46",
+        "page": 46,
+        "text": "What are adversarial attacks and why is it important to study them? 17 . What is the relationship between artificial intelligence, image recognition, and neural networks? 18 . How do neural networks recognize objects in images? Conceptual Questions 1 . Give two definitions of computer science. How do they compare? 2 . Explain the concept of theoretical computer science. 3 . What is body-syntonic reasoning and how has it affected education? 4 . In terms of data science, what is a spreadsheet and why can it be said that by using spreadsheets, people are programming without realizing it? 5 . How do discovery and invention differ and how are these involved in computer science? 6 .",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "Chapter 1 Review",
+          "raw_char_count": 2514,
+          "norm_char_count": 2468,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 685
+        },
+        "score": 0.2209493181393056,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs_p31_para_000 | openstax-intro-cs:p31 | page 31]\nvery same power that limits spreadsheets as a data management and large-scale data analysis tool. The more data and the more people involved in a spreadsheet, the greater the potential for spreadsheet problems. The interdisciplinary field that applies computing to managing data and extracting information from data is called data science. Data scientists are practitioners who combine computing and data analysis skills with the domain knowledge specific to their field or business. The demand for data scientists is becoming increasingly important as more and more research and business contexts involve analyzing big data, or very large datasets that are not easily processed using spreadsheets.",
+    "context_ids": [
+      "openstax-intro-cs_p31_para_000"
+    ],
+    "context_chars": 765,
+    "elapsed_ms": 0.3020000003743917,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "What discipline emphasizes experimentation and evaluation of the boundary between humans and computers?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 33,
+        "evidence": "Science plays a key role in human-computer interaction, which emphasizes experimentation and evaluation of the interface (boundary) between humans and computers"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs_p33_para_000",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p33",
+        "page": 33,
+        "text": "• Science plays a key role in human-computer interaction, which emphasizes experimentation and evaluation of the interface (boundary) between humans and computers, often toward designing better computer systems. Information Science Not only is computation interdisciplinary, but other disciplines are also becoming more and more computational. In The Invisible Future, Nobel Laureate biologist David Baltimore defines DNA in computational terms. He states that biology is an information science because DNA encodes for the outputs of biological systems. The interdisciplinary field studying information technologies and systems as they relate to people, organizations, and societies is called information science.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.2 Computer Science across the Disciplines",
+          "raw_char_count": 3302,
+          "norm_char_count": 3263,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 713
+        },
+        "score": 0.30034092108772553,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs_p21_para_003",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p21",
+        "page": 21,
+        "text": "In the 1940s, multiple computers became available, including IBM's Harvard Mark 1. These were the forerunners to the advent of the digital computer in the 1950s, which changed everything and evolved into the computers and related technology we have today. Around this time, computer science emerged as an academic discipline rooted in the principles of mathematics, situated primarily in elite institutions, and funded by demand from the military for use in missile guidance systems, airplanes, and other military applications. As computers could execute programs faster than humans, computer science replaced human-powered calculation with computer-powered problemsolving methods.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.1 Computer Science",
+          "raw_char_count": 3239,
+          "norm_char_count": 3200,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 681
+        },
+        "score": 0.1470636992435158,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p24_para_004",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p24",
+        "page": 24,
+        "text": "The answers to these questions suggest the limits of what we can achieve with computers from a technical perspective: Using mathematical ideas, is it possible to use a computer to compute all problems? If the answer to a problem is yes, how much of a computing resource is needed to get the answer? Clearly both humans and computers have their strengths and limitations. An example of a problem that humans can solve but computers struggle with is interpreting subtle emotions or making moral judgments in complex social situations. While computers can process data and recognize patterns, they cannot fully understand the nuances of human emotions or ethics, which often involve context, empathy, and experience. 14 1 • Introduction to Computer Science Access for free at openstax.org",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.1 Computer Science",
+          "raw_char_count": 3490,
+          "norm_char_count": 3451,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 785
+        },
+        "score": 0.14009959440615835,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs_p33_para_000 | openstax-intro-cs:p33 | page 33]\n• Science plays a key role in human-computer interaction, which emphasizes experimentation and evaluation of the interface (boundary) between humans and computers, often toward designing better computer systems. Information Science Not only is computation interdisciplinary, but other disciplines are also becoming more and more computational. In The Invisible Future, Nobel Laureate biologist David Baltimore defines DNA in computational terms. He states that biology is an information science because DNA encodes for the outputs of biological systems. The interdisciplinary field studying information technologies and systems as they relate to people, organizations, and societies is called information science.",
+    "context_ids": [
+      "openstax-intro-cs_p33_para_000"
+    ],
+    "context_chars": 780,
+    "elapsed_ms": 0.3607999824453145,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "What is an adversarial attack in machine learning?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 43,
+        "evidence": "adversarial attack sample input (e.g., an image) that is designed to cause a system to behave problematically"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs_p46_para_001",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p46",
+        "page": 46,
+        "text": "What are adversarial attacks and why is it important to study them? 17 . What is the relationship between artificial intelligence, image recognition, and neural networks? 18 . How do neural networks recognize objects in images? Conceptual Questions 1 . Give two definitions of computer science. How do they compare? 2 . Explain the concept of theoretical computer science. 3 . What is body-syntonic reasoning and how has it affected education? 4 . In terms of data science, what is a spreadsheet and why can it be said that by using spreadsheets, people are programming without realizing it? 5 . How do discovery and invention differ and how are these involved in computer science? 6 .",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "Chapter 1 Review",
+          "raw_char_count": 2514,
+          "norm_char_count": 2468,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 685
+        },
+        "score": 0.16583153226370437,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p38_para_005",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p38",
+        "page": 38,
+        "text": "Often, neural network approaches for image recognition have certain examples of images where objects are misidentified in unusual ways: a person's face might be recognized in a piece of toast or in a bunch of clouds in the sky. In these examples, the pattern of edges might coincidentally trigger the neural network values so that it misidentifies objects. These are among the more human-understandable examples; there are many other odd situations that are less explainable. An adversarial attack is a sample input (e.g., an image) that is designed to cause a system to behave problematically. Researchers have found that even tweaking the color of just a single point in an image can cause a chain reaction in the neural network, leading it to severely misidentify objects.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.3 Computer Science and the Future of Society",
+          "raw_char_count": 4345,
+          "norm_char_count": 4297,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 775
+        },
+        "score": 0.159434705908948,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p36_para_003",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p36",
+        "page": 36,
+        "text": "AI refers to a subfield of CS that is interested in solving problems that require the application of machine learning to human cognitive processes to achieve goals. AI research seeks to develop algorithm architectures that can make progress toward solving problems. One such example is image recognition, or the problem of identifying objects in an image. This problem is quite difficult for programmers to solve using traditional programming methods. Imagine having to define very precise rules or instructions that could identify an object in an image regardless of its position, size, lighting conditions, or perspective. As humans, we have an intuitive sense of the qualities of an object.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.3 Computer Science and the Future of Society",
+          "raw_char_count": 4352,
+          "norm_char_count": 4304,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 693
+        },
+        "score": 0.14966361920708865,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs_p46_para_001 | openstax-intro-cs:p46 | page 46]\nWhat are adversarial attacks and why is it important to study them? 17 . What is the relationship between artificial intelligence, image recognition, and neural networks? 18 . How do neural networks recognize objects in images? Conceptual Questions 1 . Give two definitions of computer science. How do they compare? 2 . Explain the concept of theoretical computer science. 3 . What is body-syntonic reasoning and how has it affected education? 4 . In terms of data science, what is a spreadsheet and why can it be said that by using spreadsheets, people are programming without realizing it? 5 . How do discovery and invention differ and how are these involved in computer science? 6 .",
+    "context_ids": [
+      "openstax-intro-cs_p46_para_001"
+    ],
+    "context_chars": 752,
+    "elapsed_ms": 0.2888999879360199,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "What ethical obligation do computer scientists have regarding technological knowledge?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 36,
+        "evidence": "Computer scientists have an obligation to be ethical and good stewards of technology with an emphasis on responsible computing."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs_p36_para_000",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p36",
+        "page": 36,
+        "text": "As noted earlier, computer science is a powerful tool, and computer scientists have vast technological knowledge that continues transforming society. Computer scientists have an obligation to be ethical and good stewards of technology with an emphasis on responsible computing. Written code influences daily life, from what we see on social media to the news stories that pop up in a Google search and even who may or may not receive a job interview. When computer scientists don't consider the ramifications of their code, there can be unintended consequences for people around the world. The Y2K problem, also known as the \"millennium bug,\" is a good example of shortsighted decisions that allowed computer scientists to only store the last two digits of the year instead of four.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.3 Computer Science and the Future of Society",
+          "raw_char_count": 4352,
+          "norm_char_count": 4304,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 782
+        },
+        "score": 0.29127887420682047,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs_p35_para_002",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p35",
+        "page": 35,
+        "text": "For example, the computational science application of weather prediction combines knowledge about various subfields of computer science (algorithms, distributed computing, computer systems) with knowledge about climate systems. Theoretical computer scientists are increasingly interested in asking questions such as, \"How do we design, analyze, and evaluate algorithms or information systems for fairness? How do we even define fairness in a computer system that strips away the complexities of the real world? What ideas or information are encoded in the data?",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.3 Computer Science and the Future of Society",
+          "raw_char_count": 2479,
+          "norm_char_count": 2442,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 561
+        },
+        "score": 0.2103732211444532,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p46_para_001",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p46",
+        "page": 46,
+        "text": "What are adversarial attacks and why is it important to study them? 17 . What is the relationship between artificial intelligence, image recognition, and neural networks? 18 . How do neural networks recognize objects in images? Conceptual Questions 1 . Give two definitions of computer science. How do they compare? 2 . Explain the concept of theoretical computer science. 3 . What is body-syntonic reasoning and how has it affected education? 4 . In terms of data science, what is a spreadsheet and why can it be said that by using spreadsheets, people are programming without realizing it? 5 . How do discovery and invention differ and how are these involved in computer science? 6 .",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "Chapter 1 Review",
+          "raw_char_count": 2514,
+          "norm_char_count": 2468,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 685
+        },
+        "score": 0.1810109729840298,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs_p35_para_002 | openstax-intro-cs:p35 | page 35]\nFor example, the computational science application of weather prediction combines knowledge about various subfields of computer science (algorithms, distributed computing, computer systems) with knowledge about climate systems. Theoretical computer scientists are increasingly interested in asking questions such as, \"How do we design, analyze, and evaluate algorithms or information systems for fairness? How do we even define fairness in a computer system that strips away the complexities of the real world? What ideas or information are encoded in the data?",
+    "context_ids": [
+      "openstax-intro-cs_p35_para_002"
+    ],
+    "context_chars": 628,
+    "elapsed_ms": 0.2986000035889447,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "In section 1.1 Computer Science, what visa category helps U.S. employers address technology worker shortages?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 28,
+        "evidence": "To fill some of these jobs, U.S. employers likely will continue to rely on H-1B visas."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs_p28_para_001",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p28",
+        "page": 28,
+        "text": "These professionals temporarily reside in the United States and work in specialty occupations, like computer science, that require a minimum education of a bachelor's degree or its equivalent.9 To participate in the visa program, employers must register and file a petition to hire H-1B visa holders. Each year, the U.S. Citizenship and Immigration Services accepts applications from individuals from other countries who compete for a pool of 65,000 visa numbers, as well as an additional pool of 20,000 master's exemption visa numbers awarded that year and valid for a period of three years. At the end of three years, employers can petition to have each worker's visa extended for a period of three additional years.10 This program helps U.S.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.1 Computer Science",
+          "raw_char_count": 4502,
+          "norm_char_count": 4450,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 744
+        },
+        "score": 0.32701453262761837,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p28_para_000",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p28",
+        "page": 28,
+        "text": "GLOBAL ISSUES IN TECHNOLOGY H-1B Visas Address Worker Shortages According to the U.S. Bureau of Labor Statistics (BLS), by 2033, the number of jobs available for computer and information research scientists is expected to increase by 26%. This is much faster job growth than the average expected in total for all occupations. BLS predicts that this will result in about 3,400 job openings per year in technology, including computer science.8 To fill some of these jobs, U.S. employers likely will continue to rely on H-1B visas. This visa enables employers to recruit well-educated professionals from other countries.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.1 Computer Science",
+          "raw_char_count": 4502,
+          "norm_char_count": 4450,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 617
+        },
+        "score": 0.3113615473204438,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs_p28_para_006",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p28",
+        "page": 28,
+        "text": "https://www.uscis.gov/working-in-the-unitedstates/h-1b-specialty-occupations 10 American Immigration Council, \"The H-1B Visa Program and Its Impact on the U.S. Economy,\" 2024. https://www.americanimmigrationcouncil.org/research/h1b-visa-program-fact-sheet 18 1 • Introduction to Computer Science Access for free at openstax.org",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.1 Computer Science",
+          "raw_char_count": 4502,
+          "norm_char_count": 4450,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 327
+        },
+        "score": 0.17454675411730736,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs_p28_para_000 | openstax-intro-cs:p28 | page 28]\nGLOBAL ISSUES IN TECHNOLOGY H-1B Visas Address Worker Shortages According to the U.S. Bureau of Labor Statistics (BLS), by 2033, the number of jobs available for computer and information research scientists is expected to increase by 26%. This is much faster job growth than the average expected in total for all occupations. BLS predicts that this will result in about 3,400 job openings per year in technology, including computer science.8 To fill some of these jobs, U.S. employers likely will continue to rely on H-1B visas. This visa enables employers to recruit well-educated professionals from other countries.",
+    "context_ids": [
+      "openstax-intro-cs_p28_para_000"
+    ],
+    "context_chars": 684,
+    "elapsed_ms": 0.4079999926034361,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "In the Chapter 1 Review, how is big data defined?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 43,
+        "evidence": "big data very large datasets that aren't easily processed using spreadsheets"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs_p43_para_001",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p43",
+        "page": 43,
+        "text": "• Computer science (CS) is the study of computing, which includes all phenomena related to computers, 1 • Chapter Review 33",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "Chapter 1 Review",
+          "raw_char_count": 3236,
+          "norm_char_count": 3156,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 123
+        },
+        "score": 0.27342812929876065,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p19_para_000",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p19",
+        "page": 19,
+        "text": "Figure 1.1 Computing is everywhere, affecting everyone, for better and for worse. (credit: modification of \"Whereas design is expansive, engineering is narrowing\" by Jessie Huynh/Critically Conscious Computing, CC0) Chapter Outline 1.1 Computer Science 1.2 Computer Science across the Disciplines 1.3 Computer Science and the Future of Society Introduction This textbook will introduce you to the exciting and complex world of computer science. In this chapter, you'll review the history of computer science, learn about its use in different fields, and explore how computer science will impact the future of society.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "Introduction",
+          "raw_char_count": 2484,
+          "norm_char_count": 2454,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 617
+        },
+        "score": 0.2373264365547652,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p45_para_002",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p45",
+        "page": 45,
+        "text": "a subfield of computer science that emphasizes how problems can be solved with computers as well as the practices and processes that can help people design more effective software solutions d. an interdisciplinary field that applies computing toward managing data and extracting information from data 9 . What term is used to describe a subfield of computer science that emphasizes how a computational problem can be defined in mathematical terms and whether that mathematical problem can be efficiently solved with a computer? a. computational science b. theoretical computer science c. information science d. data science 10 . What subfield of computer science relates information technology to people and society? 1 • Chapter Review 35",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "Chapter 1 Review",
+          "raw_char_count": 2240,
+          "norm_char_count": 2190,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 738
+        },
+        "score": 0.21978911978432264,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs_p43_para_001 | openstax-intro-cs:p43 | page 43]\n• Computer science (CS) is the study of computing, which includes all phenomena related to computers, 1 • Chapter Review 33",
+    "context_ids": [
+      "openstax-intro-cs_p43_para_001"
+    ],
+    "context_chars": 190,
+    "elapsed_ms": 0.3297999792266637,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "How does Al Aho describe the concept of computational thinking?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 51,
+        "evidence": "describes computational thinking as \"the thought processes involved in formulating problems so their solutions can be represented as computational steps and algorithms.\""
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs_p51_para_000",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p51",
+        "page": 51,
+        "text": "76CompThinking) from the BBC. Vision To further qualify computational thinking, Al Aho of the Columbia University Computer Science Department describes computational thinking as \"the thought processes involved in formulating problems so their solutions can be represented as computational steps and algorithms.\" Jeannette Wing, also of Columbia University, brought the idea of computational thinking to prominence in a paper she wrote in 2006 while at Carnegie Mellon University. She believes that computational thinking details the mental acts needed to compute a solution to a problem either by human actions or machine.",
+        "metadata": {
+          "chapter": "Chapter 2: Computational Thinking and Design Reusability",
+          "section": "2.1 Computational Thinking",
+          "raw_char_count": 2269,
+          "norm_char_count": 2241,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 622
+        },
+        "score": 0.25316826297248357,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs_p46_para_002",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p46",
+        "page": 46,
+        "text": "Describe in your own words the difference between data (as in data science) and information (as in information science). How does computer science shape both fields? 7 . Give a real-life example that refutes social determination of technology. Your example does not need to involve computing, but it should involve some technology designed by humans. 8 . Artificial intelligence approaches are typically used to solve problems that requires specific kinds of \"intelligence.\" Describe a real-life computational problem or application that does not need artificial intelligence. 9 . Image recognition systems that can detect objects in images enable self-driving cars and many large-scale manufacturing or agricultural operations.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "Chapter 1 Review",
+          "raw_char_count": 2514,
+          "norm_char_count": 2468,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 728
+        },
+        "score": 0.20988023173804166,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p50_para_002",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p50",
+        "page": 50,
+        "text": "2.1 Computational Thinking Learning Objectives By the end of this section, you will be able to: • Define computational thinking • Discuss computational thinking examples This chapter presents key aspects of computational thinking, including logical thinking, assessment, decomposition, pattern recognition, abstraction, generalization, componentization, and automation. These elements guide how computer scientists approach problems and create well-designed solution building blocks at both the business and technical levels. Computational thinking often involves a bottom-up approach, focusing on computing in smaller contexts, and seeks to generate innovative solutions by utilizing data structures and algorithms.",
+        "metadata": {
+          "chapter": "Chapter 2: Computational Thinking and Design Reusability",
+          "section": "2.1 Computational Thinking",
+          "raw_char_count": 3816,
+          "norm_char_count": 3770,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 716
+        },
+        "score": 0.17524768525803244,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs_p51_para_000 | openstax-intro-cs:p51 | page 51]\n76CompThinking) from the BBC. Vision To further qualify computational thinking, Al Aho of the Columbia University Computer Science Department describes computational thinking as \"the thought processes involved in formulating problems so their solutions can be represented as computational steps and algorithms.\" Jeannette Wing, also of Columbia University, brought the idea of computational thinking to prominence in a paper she wrote in 2006 while at Carnegie Mellon University. She believes that computational thinking details the mental acts needed to compute a solution to a problem either by human actions or machine.",
+    "context_ids": [
+      "openstax-intro-cs_p51_para_000"
+    ],
+    "context_chars": 689,
+    "elapsed_ms": 0.3220000071451068,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "What is the definition of decomposition in computational thinking?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 53,
+        "evidence": "Decomposition is a fundamental concept in computational thinking, representing the process of systematically breaking down a complex problem or system into smaller, more manageable parts or subproblems."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs_p53_para_000",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p53",
+        "page": 53,
+        "text": "techniques (cornerstones) to computational thinking, as illustrated in Figure 2.4: • Decomposition is a fundamental concept in computational thinking, representing the process of systematically breaking down a complex problem or system into smaller, more manageable parts or subproblems. By breaking down complexity into simpler elements, decomposition promotes a more organized approach to problem-solving. • Logical thinking and pattern recognition is a computational thinking technique that involves the process of identifying similarities among and within problems. This computational thinking technique emphasizes the ability to recognize recurring structures, relationships, or sequences in various problem-solving situations.",
+        "metadata": {
+          "chapter": "Chapter 2: Computational Thinking and Design Reusability",
+          "section": "2.1 Computational Thinking",
+          "raw_char_count": 3004,
+          "norm_char_count": 2967,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 732
+        },
+        "score": 0.308268937324644,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs_p50_para_002",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p50",
+        "page": 50,
+        "text": "2.1 Computational Thinking Learning Objectives By the end of this section, you will be able to: • Define computational thinking • Discuss computational thinking examples This chapter presents key aspects of computational thinking, including logical thinking, assessment, decomposition, pattern recognition, abstraction, generalization, componentization, and automation. These elements guide how computer scientists approach problems and create well-designed solution building blocks at both the business and technical levels. Computational thinking often involves a bottom-up approach, focusing on computing in smaller contexts, and seeks to generate innovative solutions by utilizing data structures and algorithms.",
+        "metadata": {
+          "chapter": "Chapter 2: Computational Thinking and Design Reusability",
+          "section": "2.1 Computational Thinking",
+          "raw_char_count": 3816,
+          "norm_char_count": 3770,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 716
+        },
+        "score": 0.2847952472499695,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p54_para_000",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p54",
+        "page": 54,
+        "text": "you can contribute to the development and refinement of strategies that effectively improve road safety. Decomposition Decomposition involves solving a complex problem by breaking it up into smaller, more manageable tasks. Decomposition enables the consideration of various components essential for solving a seemingly complex task, allowing it to be redefined into a more manageable problem. In the case of the jam sandwich example, decomposition involves identifying all the required ingredients and the steps the robot must take to successfully create a jam sandwich. Logical Thinking and Pattern Recognition Pattern recognition makes it possible to group all the different features considered in decomposition into categories.",
+        "metadata": {
+          "chapter": "Chapter 2: Computational Thinking and Design Reusability",
+          "section": "2.1 Computational Thinking",
+          "raw_char_count": 2689,
+          "norm_char_count": 2645,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 730
+        },
+        "score": 0.27350397717477465,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs_p53_para_000 | openstax-intro-cs:p53 | page 53]\ntechniques (cornerstones) to computational thinking, as illustrated in Figure 2.4: • Decomposition is a fundamental concept in computational thinking, representing the process of systematically breaking down a complex problem or system into smaller, more manageable parts or subproblems. By breaking down complexity into simpler elements, decomposition promotes a more organized approach to problem-solving. • Logical thinking and pattern recognition is a computational thinking technique that involves the process of identifying similarities among and within problems. This computational thinking technique emphasizes the ability to recognize recurring structures, relationships, or sequences in various problem-solving situations.",
+    "context_ids": [
+      "openstax-intro-cs_p53_para_000"
+    ],
+    "context_chars": 799,
+    "elapsed_ms": 0.3053999971598387,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "How does pattern recognition assist the decomposition process when instructing a robot to prepare a dish?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 54,
+        "evidence": "Pattern recognition makes it possible to group all the different features considered in decomposition into categories."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs_p54_para_000",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p54",
+        "page": 54,
+        "text": "you can contribute to the development and refinement of strategies that effectively improve road safety. Decomposition Decomposition involves solving a complex problem by breaking it up into smaller, more manageable tasks. Decomposition enables the consideration of various components essential for solving a seemingly complex task, allowing it to be redefined into a more manageable problem. In the case of the jam sandwich example, decomposition involves identifying all the required ingredients and the steps the robot must take to successfully create a jam sandwich. Logical Thinking and Pattern Recognition Pattern recognition makes it possible to group all the different features considered in decomposition into categories.",
+        "metadata": {
+          "chapter": "Chapter 2: Computational Thinking and Design Reusability",
+          "section": "2.1 Computational Thinking",
+          "raw_char_count": 2689,
+          "norm_char_count": 2645,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 730
+        },
+        "score": 0.26094638047531316,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs_p54_para_001",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p54",
+        "page": 54,
+        "text": "In the jam sandwich example, pattern recognition leads to grouping the various things identified via decomposition into categories, in this case, ingredients, equipment, and actions. Therefore, applying decomposition and pattern recognition will lead to thinking of as many things as possible that are required to make a jam sandwich. The more things that can be thought of (i.e., ingredients, equipment, and actions), the clearer the instructions will be. A first attempt at decomposition and pattern recognition is summarized in Table 2.1.",
+        "metadata": {
+          "chapter": "Chapter 2: Computational Thinking and Design Reusability",
+          "section": "2.1 Computational Thinking",
+          "raw_char_count": 2689,
+          "norm_char_count": 2645,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 541
+        },
+        "score": 0.2276110999175294,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p21_para_000",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p21",
+        "page": 21,
+        "text": "Algorithms may sound complicated, but they can be quite simple. For example, recipes to prepare food are algorithms with precise directions for ingredient amounts, the process to combine these, and the temperatures and cooking methods needed to transform the combined ingredients into a specific dish. The dish is the output produced by following the algorithm of a recipe. Figure 1.2 An abacus is one of the first calculators. (credit: \"Traditional Chinese abacus illustrating the suspended bead use\" by Jccsvq/Wikimedia Commons, CC0) The next major development in the evolution of computing occurred in 1614 when John Napier, a Scottish mathematician, developed logarithms, which express exponents by denoting the power that a number must be raised to obtain another value.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.1 Computer Science",
+          "raw_char_count": 3239,
+          "norm_char_count": 3200,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 775
+        },
+        "score": 0.2009075412446922,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs_p54_para_000 | openstax-intro-cs:p54 | page 54]\nyou can contribute to the development and refinement of strategies that effectively improve road safety. Decomposition Decomposition involves solving a complex problem by breaking it up into smaller, more manageable tasks. Decomposition enables the consideration of various components essential for solving a seemingly complex task, allowing it to be redefined into a more manageable problem. In the case of the jam sandwich example, decomposition involves identifying all the required ingredients and the steps the robot must take to successfully create a jam sandwich. Logical Thinking and Pattern Recognition Pattern recognition makes it possible to group all the different features considered in decomposition into categories.",
+    "context_ids": [
+      "openstax-intro-cs_p54_para_000"
+    ],
+    "context_chars": 797,
+    "elapsed_ms": 0.4259999841451645,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  }
+]

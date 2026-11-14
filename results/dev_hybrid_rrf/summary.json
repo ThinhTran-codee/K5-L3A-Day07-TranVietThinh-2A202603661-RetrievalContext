@@ -1,0 +1,13 @@
+{
+  "strategy": "hybrid_rrf",
+  "split": "dev",
+  "n": 15,
+  "top_k": 3,
+  "budget_chars": 800,
+  "use_filter": false,
+  "hit1": "11/15 (73.3%)",
+  "hit3": "14/15 (93.3%)",
+  "context_evidence_rate": "6/15 (40.0%)",
+  "avg_context_chars": 718.73,
+  "median_ms": 76.77
+}

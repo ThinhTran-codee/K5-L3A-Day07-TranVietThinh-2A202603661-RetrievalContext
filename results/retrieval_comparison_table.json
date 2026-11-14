@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Baseline (TF-IDF)",
+    "details": "TF-IDF lexical, top-k=3, budget=800 chars",
+    "split": "dev",
+    "hit1": "11/15 (73.3%)",
+    "hit3": "12/15 (80.0%)",
+    "context_evidence_rate": "7/15 (46.7%)",
+    "time_ms": "0.36 ms"
+  },
+  {
+    "name": "Method 2 (Dense)",
+    "details": "Dense cosine similarity (text-embedding-3-small), top-k=3, budget=800",
+    "split": "dev",
+    "hit1": "8/15 (53.3%)",
+    "hit3": "13/15 (86.7%)",
+    "context_evidence_rate": "3/15 (20.0%)",
+    "time_ms": "62.09 ms"
+  },
+  {
+    "name": "Method 3 (Hybrid RRF)",
+    "details": "Hybrid RRF (Dense + BM25, k=60), top-k=3, budget=800",
+    "split": "dev",
+    "hit1": "11/15 (73.3%)",
+    "hit3": "14/15 (93.3%)",
+    "context_evidence_rate": "6/15 (40.0%)",
+    "time_ms": "76.77 ms"
+  },
+  {
+    "name": "Improvement 1 (Hybrid + Budget 1500)",
+    "details": "Hybrid RRF, tăng budget lên 1500 chars tránh gãy evidence",
+    "split": "dev",
+    "hit1": "11/15 (73.3%)",
+    "hit3": "14/15 (93.3%)",
+    "context_evidence_rate": "11/15 (73.3%)",
+    "time_ms": "75.46 ms"
+  },
+  {
+    "name": "Improvement 2 (Hybrid + Budget 1500 + Top-5 + Filter)",
+    "details": "Hybrid RRF, top-k=5, budget 1500 + metadata filtering",
+    "split": "dev",
+    "hit1": "11/15 (73.3%)",
+    "hit3": "14/15 (93.3%)",
+    "context_evidence_rate": "11/15 (73.3%)",
+    "time_ms": "66.97 ms"
+  },
+  {
+    "name": "Baseline Test (TF-IDF)",
+    "details": "Baseline TF-IDF trên tập test, top-k=3, budget=800",
+    "split": "test",
+    "hit1": "0/5 (0.0%)",
+    "hit3": "3/5 (60.0%)",
+    "context_evidence_rate": "0/5 (0.0%)",
+    "time_ms": "0.62 ms"
+  },
+  {
+    "name": "Chosen Strategy Test (Hybrid RRF)",
+    "details": "Cấu hình chốt: Hybrid RRF, budget=1500 chars trên tập test",
+    "split": "test",
+    "hit1": "2/5 (40.0%)",
+    "hit3": "3/5 (60.0%)",
+    "context_evidence_rate": "2/5 (40.0%)",
+    "time_ms": "80.65 ms"
+  }
+]

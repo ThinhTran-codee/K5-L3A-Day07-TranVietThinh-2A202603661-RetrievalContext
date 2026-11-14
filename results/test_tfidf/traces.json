@@ -1,0 +1,403 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "What physical technology did the ENIAC use instead of silicon?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 23,
+        "evidence": "Instead of silicon, the ENIAC used the technology of a vacuum tube, a physical device like a light bulb that was used as memory in early digital computers."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs_p45_para_000",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p45",
+        "page": 45,
+        "text": "Review Questions 1 . What is computer science? 2 . What two subjects does computer science combine the foundations of? a. math and engineering b. math and physics c. physics and engineering d. math and chemistry 3 . What can execute an algorithm? 4 . What enables the ENIAC (one of the first digital computers, invented in 1945) to be able to compute anything that can run on modern computers? a. Both the ENIAC and modern computers have memory. b. Both the ENIAC and modern computers share the same hardware. c. Both the ENIAC and modern computers are considered Turing-complete. d. Both the ENIAC and modern computers run the same software. 5 . What invention was credited as the first calculator? a. punch cards b. abacus c. Difference Machine d. ENIAC 6 .",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "Chapter 1 Review",
+          "raw_char_count": 2240,
+          "norm_char_count": 2190,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 759
+        },
+        "score": 0.2507634755182942,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p23_para_002",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p23",
+        "page": 23,
+        "text": "The batteries that power many of today's smartphones and mobile devices rely on lithium, a soft, silvery metal mostly harvested from minerals in Australia, Zimbabwe, and Brazil, as well as from continental brine deposits in Chile, Argentina, and Bolivia. Computer engineers combine these substances to build circuitry and information pathways at the microscopic scale to form the physical basis for modern computers. However, the physical basis of computers was not always silicon. The Electronic Numerical Integrator and Computer (ENIAC) was completed in 1945, making it one of the earliest digital computers. The ENIAC operated on different physical principles.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.1 Computer Science",
+          "raw_char_count": 2979,
+          "norm_char_count": 2946,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 663
+        },
+        "score": 0.23515206234662736,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p23_para_003",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p23",
+        "page": 23,
+        "text": "Instead of silicon, the ENIAC used the technology of a vacuum tube, a physical device like a light bulb that was used as memory in early digital computers. When the \"light\" in the vacuum tube is off, the vacuum tube represents the number 0. When the \"light\" is on, the vacuum tube represents the number 1. When thousands of vacuum tubes are combined in a logical way, we suddenly have memory. The ENIAC is notable in computer history because it was the first general-purpose computer, meaning that it could run not just a single program but rather any program specified by a programmer. The ENIAC was often run and programmed by women programmers (Figure 1.4). Despite its age and differences in hardware properties, it shares a fundamental and surprising similarity with modern computers.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.1 Computer Science",
+          "raw_char_count": 2979,
+          "norm_char_count": 2946,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 789
+        },
+        "score": 0.20360142042891546,
+        "strategy": "tfidf",
+        "hit": true
+      }
+    ],
+    "context": "[openstax-intro-cs_p23_para_002 | openstax-intro-cs:p23 | page 23]\nThe batteries that power many of today's smartphones and mobile devices rely on lithium, a soft, silvery metal mostly harvested from minerals in Australia, Zimbabwe, and Brazil, as well as from continental brine deposits in Chile, Argentina, and Bolivia. Computer engineers combine these substances to build circuitry and information pathways at the microscopic scale to form the physical basis for modern computers. However, the physical basis of computers was not always silicon. The Electronic Numerical Integrator and Computer (ENIAC) was completed in 1945, making it one of the earliest digital computers. The ENIAC operated on different physical principles.",
+    "context_ids": [
+      "openstax-intro-cs_p23_para_002"
+    ],
+    "context_chars": 730,
+    "elapsed_ms": 0.523599999723956,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "Why did the One Laptop per Child (OLPC) educational vision fail to truly materialize?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 29,
+        "evidence": "OLPC's vision for education never truly materialized because children often used the computers for their own entertainment rather than the learning experiences"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs_p28_para_004",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p28",
+        "page": 28,
+        "text": "Computer scientists employ a variety of methods drawing from the social sciences to produce effective solutions. However, designing for diverse communities is difficult, particularly when the designers have little direct experience with the people they wish to serve. In The Charisma Machine, Morgan Ames criticizes the One Laptop Per Child (OLPC) project, a nonprofit initiative announced in 2005 by the Massachusetts Institute of Technology Media Lab. The project attempted to bring computer technology in the form of small, sturdy, and cheap laptops that were powered by a hand crank to children in the Global South.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.1 Computer Science",
+          "raw_char_count": 4502,
+          "norm_char_count": 4450,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 619
+        },
+        "score": 0.2112493952528154,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p29_para_000",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p29",
+        "page": 29,
+        "text": "work, OLPC's vision for education never truly materialized because children often used the computers for their own entertainment rather than the learning experiences the designers intended. Though Ames's account of the OLPC project (Figure 1.6) itself has been criticized for presenting an oversimplified narrative, it still represents a valuable argument for the risks and potential pitfalls associated with designing technologies for global development: technology does not act on its own but is embedded in a complicated social context and history. Figure 1.6 In 2005, MIT's Media Lab started the OLPC initiative to bring laptops to children in the Global South.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.1 Computer Science",
+          "raw_char_count": 2896,
+          "norm_char_count": 2862,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 665
+        },
+        "score": 0.20440135355921454,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs_p29_para_001",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p29",
+        "page": 29,
+        "text": "An unexpected outcome they discovered was that designing technologies for global communities is not as straightforward as designers may initially believe. (credit: \"One Laptop per Child\" by OLE Nepal Cover/Flickr, CC BY 2.0) THINK IT THROUGH Internet Commerce Many products and companies offer services or products over the Internet. While online shopping provides additional sales opportunities for businesses, while offering consumers a convenient shopping option, it is not without risks. For example, online businesses and their shoppers may be victims of data breaches and identity theft. Other risks include fake reviews that motivate consumers to make a purchase, phishing that leads to hacking, and fake online stores that take consumers' money without delivering a product.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.1 Computer Science",
+          "raw_char_count": 2896,
+          "norm_char_count": 2862,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 782
+        },
+        "score": 0.10997986200202814,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs_p28_para_004 | openstax-intro-cs:p28 | page 28]\nComputer scientists employ a variety of methods drawing from the social sciences to produce effective solutions. However, designing for diverse communities is difficult, particularly when the designers have little direct experience with the people they wish to serve. In The Charisma Machine, Morgan Ames criticizes the One Laptop Per Child (OLPC) project, a nonprofit initiative announced in 2005 by the Massachusetts Institute of Technology Media Lab. The project attempted to bring computer technology in the form of small, sturdy, and cheap laptops that were powered by a hand crank to children in the Global South.",
+    "context_ids": [
+      "openstax-intro-cs_p28_para_004"
+    ],
+    "context_chars": 686,
+    "elapsed_ms": 0.5034999921917915,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "What role does scientific evaluation play in human-computer interaction (HCI)?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 33,
+        "evidence": "emphasizes experimentation and evaluation of the interface (boundary) between humans and computers, often toward designing better computer systems."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs_p35_para_000",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p35",
+        "page": 35,
+        "text": "◦ Security ◦ Databases ◦ Distributed computing ◦ Graphics • Applied computer science ◦ Scientific computing ◦ Human-computer interaction ◦ Software engineering In this hierarchy, theoretical computer science and computer systems are treated separately from applied computer science and human-computer interaction, suggesting that the mathematics of computing are pure and separate from social questions. Yet we've seen several examples that question this paradigm and instead point to a structure where human-computer interaction is infused throughout the study of computer science and all its subfields.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.3 Computer Science and the Future of Society",
+          "raw_char_count": 2479,
+          "norm_char_count": 2442,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 604
+        },
+        "score": 0.2505119724450966,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p31_para_005",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p31",
+        "page": 31,
+        "text": "The field of computational science refers to the application of computing concepts and technologies to advance scientific research and practical applications of scientific knowledge in a wide range of fields, including civil engineering, finance, and medicine (among many others). For example, algorithms and computer software play a key role in enabling numerical weather prediction (Figure 1.7) or the use of mathematical models to forecast weather based on current conditions in order to assist peoples' everyday lives and contribute to our understanding of the climate models, climate changes, and climate catastrophes.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.2 Computer Science across the Disciplines",
+          "raw_char_count": 4568,
+          "norm_char_count": 4517,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 623
+        },
+        "score": 0.15751218221225005,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p33_para_000",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p33",
+        "page": 33,
+        "text": "• Science plays a key role in human-computer interaction, which emphasizes experimentation and evaluation of the interface (boundary) between humans and computers, often toward designing better computer systems. Information Science Not only is computation interdisciplinary, but other disciplines are also becoming more and more computational. In The Invisible Future, Nobel Laureate biologist David Baltimore defines DNA in computational terms. He states that biology is an information science because DNA encodes for the outputs of biological systems. The interdisciplinary field studying information technologies and systems as they relate to people, organizations, and societies is called information science.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "1.2 Computer Science across the Disciplines",
+          "raw_char_count": 3302,
+          "norm_char_count": 3263,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 713
+        },
+        "score": 0.1573922864168318,
+        "strategy": "tfidf",
+        "hit": true
+      }
+    ],
+    "context": "[openstax-intro-cs_p35_para_000 | openstax-intro-cs:p35 | page 35]\n◦ Security ◦ Databases ◦ Distributed computing ◦ Graphics • Applied computer science ◦ Scientific computing ◦ Human-computer interaction ◦ Software engineering In this hierarchy, theoretical computer science and computer systems are treated separately from applied computer science and human-computer interaction, suggesting that the mathematics of computing are pure and separate from social questions. Yet we've seen several examples that question this paradigm and instead point to a structure where human-computer interaction is infused throughout the study of computer science and all its subfields.",
+    "context_ids": [
+      "openstax-intro-cs_p35_para_000"
+    ],
+    "context_chars": 671,
+    "elapsed_ms": 0.6248000136110932,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "In section 2.1 Computational Thinking, what does decomposition involve when tackling complex problems?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 54,
+        "evidence": "Decomposition involves solving a complex problem by breaking it up into smaller, more manageable tasks."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs_p50_para_002",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p50",
+        "page": 50,
+        "text": "2.1 Computational Thinking Learning Objectives By the end of this section, you will be able to: • Define computational thinking • Discuss computational thinking examples This chapter presents key aspects of computational thinking, including logical thinking, assessment, decomposition, pattern recognition, abstraction, generalization, componentization, and automation. These elements guide how computer scientists approach problems and create well-designed solution building blocks at both the business and technical levels. Computational thinking often involves a bottom-up approach, focusing on computing in smaller contexts, and seeks to generate innovative solutions by utilizing data structures and algorithms.",
+        "metadata": {
+          "chapter": "Chapter 2: Computational Thinking and Design Reusability",
+          "section": "2.1 Computational Thinking",
+          "raw_char_count": 3816,
+          "norm_char_count": 3770,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 716
+        },
+        "score": 0.24923895737534812,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p51_para_003",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p51",
+        "page": 51,
+        "text": "Let's explore each characteristic in more detail: • Decomposition: The analytical process of breaking down complex concepts or problems into smaller parts 2.1 • Computational Thinking 41",
+        "metadata": {
+          "chapter": "Chapter 2: Computational Thinking and Design Reusability",
+          "section": "2.1 Computational Thinking",
+          "raw_char_count": 2269,
+          "norm_char_count": 2241,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 186
+        },
+        "score": 0.24773095875711965,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p53_para_000",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p53",
+        "page": 53,
+        "text": "techniques (cornerstones) to computational thinking, as illustrated in Figure 2.4: • Decomposition is a fundamental concept in computational thinking, representing the process of systematically breaking down a complex problem or system into smaller, more manageable parts or subproblems. By breaking down complexity into simpler elements, decomposition promotes a more organized approach to problem-solving. • Logical thinking and pattern recognition is a computational thinking technique that involves the process of identifying similarities among and within problems. This computational thinking technique emphasizes the ability to recognize recurring structures, relationships, or sequences in various problem-solving situations.",
+        "metadata": {
+          "chapter": "Chapter 2: Computational Thinking and Design Reusability",
+          "section": "2.1 Computational Thinking",
+          "raw_char_count": 3004,
+          "norm_char_count": 2967,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 732
+        },
+        "score": 0.22809328838925674,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs_p50_para_002 | openstax-intro-cs:p50 | page 50]\n2.1 Computational Thinking Learning Objectives By the end of this section, you will be able to: • Define computational thinking • Discuss computational thinking examples This chapter presents key aspects of computational thinking, including logical thinking, assessment, decomposition, pattern recognition, abstraction, generalization, componentization, and automation. These elements guide how computer scientists approach problems and create well-designed solution building blocks at both the business and technical levels. Computational thinking often involves a bottom-up approach, focusing on computing in smaller contexts, and seeks to generate innovative solutions by utilizing data structures and algorithms.",
+    "context_ids": [
+      "openstax-intro-cs_p50_para_002"
+    ],
+    "context_chars": 783,
+    "elapsed_ms": 0.9034999820869416,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "In the Chapter 1 Review, how is a spreadsheet defined?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 43,
+        "evidence": "spreadsheet data-centric programming environment where data is organized into cells in a table"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs_p43_para_001",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p43",
+        "page": 43,
+        "text": "• Computer science (CS) is the study of computing, which includes all phenomena related to computers, 1 • Chapter Review 33",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "Chapter 1 Review",
+          "raw_char_count": 3236,
+          "norm_char_count": 3156,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 123
+        },
+        "score": 0.2809038665039027,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p19_para_000",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p19",
+        "page": 19,
+        "text": "Figure 1.1 Computing is everywhere, affecting everyone, for better and for worse. (credit: modification of \"Whereas design is expansive, engineering is narrowing\" by Jessie Huynh/Critically Conscious Computing, CC0) Chapter Outline 1.1 Computer Science 1.2 Computer Science across the Disciplines 1.3 Computer Science and the Future of Society Introduction This textbook will introduce you to the exciting and complex world of computer science. In this chapter, you'll review the history of computer science, learn about its use in different fields, and explore how computer science will impact the future of society.",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "Introduction",
+          "raw_char_count": 2484,
+          "norm_char_count": 2454,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 617
+        },
+        "score": 0.24381512546934897,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs_p47_para_004",
+        "source_id": "openstax-intro-cs",
+        "source": "openstax-intro-cs:p47",
+        "page": 47,
+        "text": "Give another philosophy that might influence or affect how computer scientists go about creating solutions. 6 . If your organization is interested in artificial intelligence technology to enhance operations, what could you do to ensure the system is designed and implemented in a safe, socially responsible, and just manner? Labs 1 . Explore the Parable of the Polygons (https://openstax.org/r/76polygons). How does computer science 1 • Chapter Review 37",
+        "metadata": {
+          "chapter": "Chapter 1: Introduction to Computer Science",
+          "section": "Chapter 1 Review",
+          "raw_char_count": 3329,
+          "norm_char_count": 3281,
+          "chunk_type": "paragraph_semantic",
+          "char_length": 454
+        },
+        "score": 0.21726973979153713,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs_p43_para_001 | openstax-intro-cs:p43 | page 43]\n• Computer science (CS) is the study of computing, which includes all phenomena related to computers, 1 • Chapter Review 33\n\n[openstax-intro-cs_p47_para_004 | openstax-intro-cs:p47 | page 47]\nGive another philosophy that might influence or affect how computer scientists go about creating solutions. 6 . If your organization is interested in artificial intelligence technology to enhance operations, what could you do to ensure the system is designed and implemented in a safe, socially responsible, and just manner? Labs 1 . Explore the Parable of the Polygons (https://openstax.org/r/76polygons). How does computer science 1 • Chapter Review 37",
+    "context_ids": [
+      "openstax-intro-cs_p43_para_001",
+      "openstax-intro-cs_p47_para_004"
+    ],
+    "context_chars": 713,
+    "elapsed_ms": 0.7542999810539186,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  }
+]
