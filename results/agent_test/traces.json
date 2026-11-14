@@ -1,0 +1,1036 @@
+[
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "ENIAC physical technology used instead of silicon",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-intro-cs_p23_para_003",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p23",
+            "page": 23,
+            "text": "Instead of silicon, the ENIAC used the technology of a vacuum tube, a physical device like a light bulb that was used as memory in early digital computers. When the \"light\" in the vacuum tube is off, the vacuum tube represents the number 0. When the \"light\" is on, the vacuum tube represents the number 1. When thousands of vacuum tubes are combined in a logical way, we suddenly have memory. The ENIAC is notable in computer history because it was the first general-purpose computer, meaning that it could run not just a single program but rather any program specified by a programmer. The ENIAC was often run and programmed by women programmers (Figure 1.4). Despite its age and differences in hardware properties, it shares a fundamental and surprising similarity with modern computers.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.1 Computer Science",
+              "raw_char_count": 2979,
+              "norm_char_count": 2946,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 789
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p23_para_002",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p23",
+            "page": 23,
+            "text": "The batteries that power many of today's smartphones and mobile devices rely on lithium, a soft, silvery metal mostly harvested from minerals in Australia, Zimbabwe, and Brazil, as well as from continental brine deposits in Chile, Argentina, and Bolivia. Computer engineers combine these substances to build circuitry and information pathways at the microscopic scale to form the physical basis for modern computers. However, the physical basis of computers was not always silicon. The Electronic Numerical Integrator and Computer (ENIAC) was completed in 1945, making it one of the earliest digital computers. The ENIAC operated on different physical principles.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.1 Computer Science",
+              "raw_char_count": 2979,
+              "norm_char_count": 2946,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 663
+            },
+            "score": 0.03200204813108039,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p24_para_000",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p24",
+            "page": 24,
+            "text": "today's computers can also be computed by the ENIAC given the right circumstances—just trillions of times more slowly. Figure 1.4 This image depicts women programmers holding boards used in computers such as the ENIAC, many of which were designed expressly for ballistics and ordinance guidance research. Today, these room-size computers can be reproduced at a literally microscopic scale—basically invisible to the human eye. (credit: modification of \"Women holding parts of the first four Army computers\" by U.S. Army/Wikimedia Commons, Public Domain) How is this possible? The algorithmic principles that determine how results are computed makes up software.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.1 Computer Science",
+              "raw_char_count": 3490,
+              "norm_char_count": 3451,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 661
+            },
+            "score": 0.03128054740957967,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[openstax-intro-cs_p23_para_003 | openstax-intro-cs:p23 | page 23]\nInstead of silicon, the ENIAC used the technology of a vacuum tube, a physical device like a light bulb that was used as memory in early digital computers. When the \"light\" in the vacuum tube is off, the vacuum tube represents the number 0. When the \"light\" is on, the vacuum tube represents the number 1. When thousands of vacuum tubes are combined in a logical way, we suddenly have memory. The ENIAC is notable in computer history because it was the first general-purpose computer, meaning that it could run not just a single program but rather any program specified by a programmer. The ENIAC was often run and programmed by women programmers (Figure 1.4). Despite its age and differences in hardware properties, it shares a fundamental and surprising similarity with modern computers.",
+        "context_ids": [
+          "openstax-intro-cs_p23_para_003"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "query_id": "q16",
+    "elapsed_s": 4.36
+  },
+  {
+    "status": "answered",
+    "answer": "The One Laptop per Child (OLPC) educational vision failed to truly materialize because children often used the computers for their own entertainment rather than the intended learning experiences. This highlights the complexity of designing technologies for global development, as technology is embedded in a complicated social context and history [openstax-intro-cs_p29_para_000].",
+    "citations": [
+      "openstax-intro-cs_p29_para_000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "One Laptop per Child OLPC educational vision failure reasons",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-intro-cs_p28_para_004",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p28",
+            "page": 28,
+            "text": "Computer scientists employ a variety of methods drawing from the social sciences to produce effective solutions. However, designing for diverse communities is difficult, particularly when the designers have little direct experience with the people they wish to serve. In The Charisma Machine, Morgan Ames criticizes the One Laptop Per Child (OLPC) project, a nonprofit initiative announced in 2005 by the Massachusetts Institute of Technology Media Lab. The project attempted to bring computer technology in the form of small, sturdy, and cheap laptops that were powered by a hand crank to children in the Global South.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.1 Computer Science",
+              "raw_char_count": 4502,
+              "norm_char_count": 4450,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 619
+            },
+            "score": 0.03252247488101534,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p29_para_000",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p29",
+            "page": 29,
+            "text": "work, OLPC's vision for education never truly materialized because children often used the computers for their own entertainment rather than the learning experiences the designers intended. Though Ames's account of the OLPC project (Figure 1.6) itself has been criticized for presenting an oversimplified narrative, it still represents a valuable argument for the risks and potential pitfalls associated with designing technologies for global development: technology does not act on its own but is embedded in a complicated social context and history. Figure 1.6 In 2005, MIT's Media Lab started the OLPC initiative to bring laptops to children in the Global South.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.1 Computer Science",
+              "raw_char_count": 2896,
+              "norm_char_count": 2862,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 665
+            },
+            "score": 0.032266458495966696,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p29_para_001",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p29",
+            "page": 29,
+            "text": "An unexpected outcome they discovered was that designing technologies for global communities is not as straightforward as designers may initially believe. (credit: \"One Laptop per Child\" by OLE Nepal Cover/Flickr, CC BY 2.0) THINK IT THROUGH Internet Commerce Many products and companies offer services or products over the Internet. While online shopping provides additional sales opportunities for businesses, while offering consumers a convenient shopping option, it is not without risks. For example, online businesses and their shoppers may be victims of data breaches and identity theft. Other risks include fake reviews that motivate consumers to make a purchase, phishing that leads to hacking, and fake online stores that take consumers' money without delivering a product.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.1 Computer Science",
+              "raw_char_count": 2896,
+              "norm_char_count": 2862,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 782
+            },
+            "score": 0.03200204813108039,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[openstax-intro-cs_p28_para_004 | openstax-intro-cs:p28 | page 28]\nComputer scientists employ a variety of methods drawing from the social sciences to produce effective solutions. However, designing for diverse communities is difficult, particularly when the designers have little direct experience with the people they wish to serve. In The Charisma Machine, Morgan Ames criticizes the One Laptop Per Child (OLPC) project, a nonprofit initiative announced in 2005 by the Massachusetts Institute of Technology Media Lab. The project attempted to bring computer technology in the form of small, sturdy, and cheap laptops that were powered by a hand crank to children in the Global South.\n\n[openstax-intro-cs_p29_para_000 | openstax-intro-cs:p29 | page 29]\nwork, OLPC's vision for education never truly materialized because children often used the computers for their own entertainment rather than the learning experiences the designers intended. Though Ames's account of the OLPC project (Figure 1.6) itself has been criticized for presenting an oversimplified narrative, it still represents a valuable argument for the risks and potential pitfalls associated with designing technologies for global development: technology does not act on its own but is embedded in a complicated social context and history. Figure 1.6 In 2005, MIT's Media Lab started the OLPC initiative to bring laptops to children in the Global South.",
+        "context_ids": [
+          "openstax-intro-cs_p28_para_004",
+          "openstax-intro-cs_p29_para_000"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "q17",
+    "elapsed_s": 3.02
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "scientific evaluation in human-computer interaction",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-intro-cs_p35_para_000",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p35",
+            "page": 35,
+            "text": "◦ Security ◦ Databases ◦ Distributed computing ◦ Graphics • Applied computer science ◦ Scientific computing ◦ Human-computer interaction ◦ Software engineering In this hierarchy, theoretical computer science and computer systems are treated separately from applied computer science and human-computer interaction, suggesting that the mathematics of computing are pure and separate from social questions. Yet we've seen several examples that question this paradigm and instead point to a structure where human-computer interaction is infused throughout the study of computer science and all its subfields.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.3 Computer Science and the Future of Society",
+              "raw_char_count": 2479,
+              "norm_char_count": 2442,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 604
+            },
+            "score": 0.032266458495966696,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p25_para_001",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p25",
+            "page": 25,
+            "text": "These perspectives, however, are gradually changing. Just as the design of ARPANET shaped the design of the Internet, computer scientists are also learning that the physical aspects of computer hardware determine what can be efficiently computed. For example, many of today's artificial intelligence technologies rely on highly specialized computer hardware that is fundamentally different at the physical level compared to the general-purpose programmable silicon that has been the traditional focus of computer science. Organizations that develop human-computer interaction (HCI), a subfield of computer science that emphasizes the social aspects of computation, now host annual conferences that bring together thousands of researchers in academia and professionals in the industry.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.1 Computer Science",
+              "raw_char_count": 4863,
+              "norm_char_count": 4811,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 784
+            },
+            "score": 0.03200204813108039,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p42_para_001",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p42",
+            "page": 42,
+            "text": "LINK TO LEARNING Anatomy of an AI System (https://openstax.org/r/76AIanatomy) illustrates how an AI system like the Amazon Echo does not just involve computer technology, but also involves a vast and deeply interconnected web of human labor, data, and physical resources that are often taken for granted. Evaluation of the negative consequences of technology does not end at the technology itself, but also considers its broad-reaching impacts and implications for people around the world. 32 1 • Introduction to Computer Science Access for free at openstax.org",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.3 Computer Science and the Future of Society",
+              "raw_char_count": 1179,
+              "norm_char_count": 1163,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 561
+            },
+            "score": 0.02803921568627451,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[openstax-intro-cs_p35_para_000 | openstax-intro-cs:p35 | page 35]\n◦ Security ◦ Databases ◦ Distributed computing ◦ Graphics • Applied computer science ◦ Scientific computing ◦ Human-computer interaction ◦ Software engineering In this hierarchy, theoretical computer science and computer systems are treated separately from applied computer science and human-computer interaction, suggesting that the mathematics of computing are pure and separate from social questions. Yet we've seen several examples that question this paradigm and instead point to a structure where human-computer interaction is infused throughout the study of computer science and all its subfields.\n\n[openstax-intro-cs_p42_para_001 | openstax-intro-cs:p42 | page 42]\nLINK TO LEARNING Anatomy of an AI System (https://openstax.org/r/76AIanatomy) illustrates how an AI system like the Amazon Echo does not just involve computer technology, but also involves a vast and deeply interconnected web of human labor, data, and physical resources that are often taken for granted. Evaluation of the negative consequences of technology does not end at the technology itself, but also considers its broad-reaching impacts and implications for people around the world. 32 1 • Introduction to Computer Science Access for free at openstax.org",
+        "context_ids": [
+          "openstax-intro-cs_p35_para_000",
+          "openstax-intro-cs_p42_para_001"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "scientific evaluation in human-computer interaction",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-intro-cs_p35_para_000",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p35",
+            "page": 35,
+            "text": "◦ Security ◦ Databases ◦ Distributed computing ◦ Graphics • Applied computer science ◦ Scientific computing ◦ Human-computer interaction ◦ Software engineering In this hierarchy, theoretical computer science and computer systems are treated separately from applied computer science and human-computer interaction, suggesting that the mathematics of computing are pure and separate from social questions. Yet we've seen several examples that question this paradigm and instead point to a structure where human-computer interaction is infused throughout the study of computer science and all its subfields.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.3 Computer Science and the Future of Society",
+              "raw_char_count": 2479,
+              "norm_char_count": 2442,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 604
+            },
+            "score": 0.032266458495966696,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p25_para_001",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p25",
+            "page": 25,
+            "text": "These perspectives, however, are gradually changing. Just as the design of ARPANET shaped the design of the Internet, computer scientists are also learning that the physical aspects of computer hardware determine what can be efficiently computed. For example, many of today's artificial intelligence technologies rely on highly specialized computer hardware that is fundamentally different at the physical level compared to the general-purpose programmable silicon that has been the traditional focus of computer science. Organizations that develop human-computer interaction (HCI), a subfield of computer science that emphasizes the social aspects of computation, now host annual conferences that bring together thousands of researchers in academia and professionals in the industry.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.1 Computer Science",
+              "raw_char_count": 4863,
+              "norm_char_count": 4811,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 784
+            },
+            "score": 0.03200204813108039,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p42_para_001",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p42",
+            "page": 42,
+            "text": "LINK TO LEARNING Anatomy of an AI System (https://openstax.org/r/76AIanatomy) illustrates how an AI system like the Amazon Echo does not just involve computer technology, but also involves a vast and deeply interconnected web of human labor, data, and physical resources that are often taken for granted. Evaluation of the negative consequences of technology does not end at the technology itself, but also considers its broad-reaching impacts and implications for people around the world. 32 1 • Introduction to Computer Science Access for free at openstax.org",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.3 Computer Science and the Future of Society",
+              "raw_char_count": 1179,
+              "norm_char_count": 1163,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 561
+            },
+            "score": 0.02803921568627451,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[openstax-intro-cs_p35_para_000 | openstax-intro-cs:p35 | page 35]\n◦ Security ◦ Databases ◦ Distributed computing ◦ Graphics • Applied computer science ◦ Scientific computing ◦ Human-computer interaction ◦ Software engineering In this hierarchy, theoretical computer science and computer systems are treated separately from applied computer science and human-computer interaction, suggesting that the mathematics of computing are pure and separate from social questions. Yet we've seen several examples that question this paradigm and instead point to a structure where human-computer interaction is infused throughout the study of computer science and all its subfields.\n\n[openstax-intro-cs_p42_para_001 | openstax-intro-cs:p42 | page 42]\nLINK TO LEARNING Anatomy of an AI System (https://openstax.org/r/76AIanatomy) illustrates how an AI system like the Amazon Echo does not just involve computer technology, but also involves a vast and deeply interconnected web of human labor, data, and physical resources that are often taken for granted. Evaluation of the negative consequences of technology does not end at the technology itself, but also considers its broad-reaching impacts and implications for people around the world. 32 1 • Introduction to Computer Science Access for free at openstax.org",
+        "context_ids": [
+          "openstax-intro-cs_p35_para_000",
+          "openstax-intro-cs_p42_para_001"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "scientific evaluation in human-computer interaction",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-intro-cs_p35_para_000",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p35",
+            "page": 35,
+            "text": "◦ Security ◦ Databases ◦ Distributed computing ◦ Graphics • Applied computer science ◦ Scientific computing ◦ Human-computer interaction ◦ Software engineering In this hierarchy, theoretical computer science and computer systems are treated separately from applied computer science and human-computer interaction, suggesting that the mathematics of computing are pure and separate from social questions. Yet we've seen several examples that question this paradigm and instead point to a structure where human-computer interaction is infused throughout the study of computer science and all its subfields.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.3 Computer Science and the Future of Society",
+              "raw_char_count": 2479,
+              "norm_char_count": 2442,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 604
+            },
+            "score": 0.032266458495966696,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p25_para_001",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p25",
+            "page": 25,
+            "text": "These perspectives, however, are gradually changing. Just as the design of ARPANET shaped the design of the Internet, computer scientists are also learning that the physical aspects of computer hardware determine what can be efficiently computed. For example, many of today's artificial intelligence technologies rely on highly specialized computer hardware that is fundamentally different at the physical level compared to the general-purpose programmable silicon that has been the traditional focus of computer science. Organizations that develop human-computer interaction (HCI), a subfield of computer science that emphasizes the social aspects of computation, now host annual conferences that bring together thousands of researchers in academia and professionals in the industry.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.1 Computer Science",
+              "raw_char_count": 4863,
+              "norm_char_count": 4811,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 784
+            },
+            "score": 0.03200204813108039,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p42_para_001",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p42",
+            "page": 42,
+            "text": "LINK TO LEARNING Anatomy of an AI System (https://openstax.org/r/76AIanatomy) illustrates how an AI system like the Amazon Echo does not just involve computer technology, but also involves a vast and deeply interconnected web of human labor, data, and physical resources that are often taken for granted. Evaluation of the negative consequences of technology does not end at the technology itself, but also considers its broad-reaching impacts and implications for people around the world. 32 1 • Introduction to Computer Science Access for free at openstax.org",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.3 Computer Science and the Future of Society",
+              "raw_char_count": 1179,
+              "norm_char_count": 1163,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 561
+            },
+            "score": 0.02803921568627451,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[openstax-intro-cs_p35_para_000 | openstax-intro-cs:p35 | page 35]\n◦ Security ◦ Databases ◦ Distributed computing ◦ Graphics • Applied computer science ◦ Scientific computing ◦ Human-computer interaction ◦ Software engineering In this hierarchy, theoretical computer science and computer systems are treated separately from applied computer science and human-computer interaction, suggesting that the mathematics of computing are pure and separate from social questions. Yet we've seen several examples that question this paradigm and instead point to a structure where human-computer interaction is infused throughout the study of computer science and all its subfields.\n\n[openstax-intro-cs_p42_para_001 | openstax-intro-cs:p42 | page 42]\nLINK TO LEARNING Anatomy of an AI System (https://openstax.org/r/76AIanatomy) illustrates how an AI system like the Amazon Echo does not just involve computer technology, but also involves a vast and deeply interconnected web of human labor, data, and physical resources that are often taken for granted. Evaluation of the negative consequences of technology does not end at the technology itself, but also considers its broad-reaching impacts and implications for people around the world. 32 1 • Introduction to Computer Science Access for free at openstax.org",
+        "context_ids": [
+          "openstax-intro-cs_p35_para_000",
+          "openstax-intro-cs_p42_para_001"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "query_id": "q18",
+    "elapsed_s": 4.66
+  },
+  {
+    "status": "answered",
+    "answer": "Decomposition involves systematically breaking down a complex problem or system into smaller, more manageable parts or subproblems. This process promotes a more organized approach to problem-solving by simplifying complexity into simpler elements [openstax-intro-cs_p53_para_000].",
+    "citations": [
+      "openstax-intro-cs_p53_para_000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Computational Thinking decomposition complex problems site:introcs.openstax.org",
+        "filter": {
+          "section": "2.1 Computational Thinking"
+        },
+        "results": [
+          {
+            "id": "openstax-intro-cs_p50_para_005",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p50",
+            "page": 50,
+            "text": "LINK TO LEARNING Computational thinking serves as the intermediary that helps us read complex problems, formulate solutions, and then express those solutions in a manner that computers, humans, or a collaboration of both can implement. Read this article for a good introduction to computational thinking (https://openstax.org/r/ 40 2 • Computational Thinking and Design Reusability Access for free at openstax.org",
+            "metadata": {
+              "chapter": "Chapter 2: Computational Thinking and Design Reusability",
+              "section": "2.1 Computational Thinking",
+              "raw_char_count": 3816,
+              "norm_char_count": 3770,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 413
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p53_para_000",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p53",
+            "page": 53,
+            "text": "techniques (cornerstones) to computational thinking, as illustrated in Figure 2.4: • Decomposition is a fundamental concept in computational thinking, representing the process of systematically breaking down a complex problem or system into smaller, more manageable parts or subproblems. By breaking down complexity into simpler elements, decomposition promotes a more organized approach to problem-solving. • Logical thinking and pattern recognition is a computational thinking technique that involves the process of identifying similarities among and within problems. This computational thinking technique emphasizes the ability to recognize recurring structures, relationships, or sequences in various problem-solving situations.",
+            "metadata": {
+              "chapter": "Chapter 2: Computational Thinking and Design Reusability",
+              "section": "2.1 Computational Thinking",
+              "raw_char_count": 3004,
+              "norm_char_count": 2967,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 732
+            },
+            "score": 0.03200204813108039,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p51_para_003",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p51",
+            "page": 51,
+            "text": "Let's explore each characteristic in more detail: • Decomposition: The analytical process of breaking down complex concepts or problems into smaller parts 2.1 • Computational Thinking 41",
+            "metadata": {
+              "chapter": "Chapter 2: Computational Thinking and Design Reusability",
+              "section": "2.1 Computational Thinking",
+              "raw_char_count": 2269,
+              "norm_char_count": 2241,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 186
+            },
+            "score": 0.03200204813108039,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[openstax-intro-cs_p50_para_005 | openstax-intro-cs:p50 | page 50]\nLINK TO LEARNING Computational thinking serves as the intermediary that helps us read complex problems, formulate solutions, and then express those solutions in a manner that computers, humans, or a collaboration of both can implement. Read this article for a good introduction to computational thinking (https://openstax.org/r/ 40 2 • Computational Thinking and Design Reusability Access for free at openstax.org\n\n[openstax-intro-cs_p53_para_000 | openstax-intro-cs:p53 | page 53]\ntechniques (cornerstones) to computational thinking, as illustrated in Figure 2.4: • Decomposition is a fundamental concept in computational thinking, representing the process of systematically breaking down a complex problem or system into smaller, more manageable parts or subproblems. By breaking down complexity into simpler elements, decomposition promotes a more organized approach to problem-solving. • Logical thinking and pattern recognition is a computational thinking technique that involves the process of identifying similarities among and within problems. This computational thinking technique emphasizes the ability to recognize recurring structures, relationships, or sequences in various problem-solving situations.",
+        "context_ids": [
+          "openstax-intro-cs_p50_para_005",
+          "openstax-intro-cs_p53_para_000"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "q19",
+    "elapsed_s": 2.94
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Chapter 1 Review spreadsheet definition",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-intro-cs_p19_para_000",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p19",
+            "page": 19,
+            "text": "Figure 1.1 Computing is everywhere, affecting everyone, for better and for worse. (credit: modification of \"Whereas design is expansive, engineering is narrowing\" by Jessie Huynh/Critically Conscious Computing, CC0) Chapter Outline 1.1 Computer Science 1.2 Computer Science across the Disciplines 1.3 Computer Science and the Future of Society Introduction This textbook will introduce you to the exciting and complex world of computer science. In this chapter, you'll review the history of computer science, learn about its use in different fields, and explore how computer science will impact the future of society.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "Introduction",
+              "raw_char_count": 2484,
+              "norm_char_count": 2454,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 617
+            },
+            "score": 0.031024531024531024,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p30_para_003",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p30",
+            "page": 30,
+            "text": "Spreadsheets are uniquely effective and accessible because they allow for the visual organization of data in whichever structure makes the most sense to the user. Instead of hiding data behind code, spreadsheets make data as transparent and up to date as possible. Although spreadsheets make computation accessible for millions of people across the world, they have several shortcomings. Unless limits are removed, many popular spreadsheet software products such as Microsoft Excel may have a limitation to the number of rows of data they can store that is less than the data of modern computers. One such example occurred in October 2020 when Public Health England failed to report 15,841 positive cases of COVID-19 in the United Kingdom due to mismanaged row limits in the spreadsheet used.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.2 Computer Science across the Disciplines",
+              "raw_char_count": 3658,
+              "norm_char_count": 3612,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 792
+            },
+            "score": 0.030886196246139225,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p31_para_000",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p31",
+            "page": 31,
+            "text": "very same power that limits spreadsheets as a data management and large-scale data analysis tool. The more data and the more people involved in a spreadsheet, the greater the potential for spreadsheet problems. The interdisciplinary field that applies computing to managing data and extracting information from data is called data science. Data scientists are practitioners who combine computing and data analysis skills with the domain knowledge specific to their field or business. The demand for data scientists is becoming increasingly important as more and more research and business contexts involve analyzing big data, or very large datasets that are not easily processed using spreadsheets.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.2 Computer Science across the Disciplines",
+              "raw_char_count": 4568,
+              "norm_char_count": 4517,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 698
+            },
+            "score": 0.03057889822595705,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[openstax-intro-cs_p19_para_000 | openstax-intro-cs:p19 | page 19]\nFigure 1.1 Computing is everywhere, affecting everyone, for better and for worse. (credit: modification of \"Whereas design is expansive, engineering is narrowing\" by Jessie Huynh/Critically Conscious Computing, CC0) Chapter Outline 1.1 Computer Science 1.2 Computer Science across the Disciplines 1.3 Computer Science and the Future of Society Introduction This textbook will introduce you to the exciting and complex world of computer science. In this chapter, you'll review the history of computer science, learn about its use in different fields, and explore how computer science will impact the future of society.\n\n[openstax-intro-cs_p31_para_000 | openstax-intro-cs:p31 | page 31]\nvery same power that limits spreadsheets as a data management and large-scale data analysis tool. The more data and the more people involved in a spreadsheet, the greater the potential for spreadsheet problems. The interdisciplinary field that applies computing to managing data and extracting information from data is called data science. Data scientists are practitioners who combine computing and data analysis skills with the domain knowledge specific to their field or business. The demand for data scientists is becoming increasingly important as more and more research and business contexts involve analyzing big data, or very large datasets that are not easily processed using spreadsheets.",
+        "context_ids": [
+          "openstax-intro-cs_p19_para_000",
+          "openstax-intro-cs_p31_para_000"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "definition of a spreadsheet",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-intro-cs_p31_para_000",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p31",
+            "page": 31,
+            "text": "very same power that limits spreadsheets as a data management and large-scale data analysis tool. The more data and the more people involved in a spreadsheet, the greater the potential for spreadsheet problems. The interdisciplinary field that applies computing to managing data and extracting information from data is called data science. Data scientists are practitioners who combine computing and data analysis skills with the domain knowledge specific to their field or business. The demand for data scientists is becoming increasingly important as more and more research and business contexts involve analyzing big data, or very large datasets that are not easily processed using spreadsheets.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.2 Computer Science across the Disciplines",
+              "raw_char_count": 4568,
+              "norm_char_count": 4517,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 698
+            },
+            "score": 0.032266458495966696,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p30_para_003",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p30",
+            "page": 30,
+            "text": "Spreadsheets are uniquely effective and accessible because they allow for the visual organization of data in whichever structure makes the most sense to the user. Instead of hiding data behind code, spreadsheets make data as transparent and up to date as possible. Although spreadsheets make computation accessible for millions of people across the world, they have several shortcomings. Unless limits are removed, many popular spreadsheet software products such as Microsoft Excel may have a limitation to the number of rows of data they can store that is less than the data of modern computers. One such example occurred in October 2020 when Public Health England failed to report 15,841 positive cases of COVID-19 in the United Kingdom due to mismanaged row limits in the spreadsheet used.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.2 Computer Science across the Disciplines",
+              "raw_char_count": 3658,
+              "norm_char_count": 3612,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 792
+            },
+            "score": 0.03225806451612903,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p30_para_004",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p30",
+            "page": 30,
+            "text": "This shortcoming attests not only to the technical limit on the number of rows supported by spreadsheets, but also to the design limitations of software that fails to communicate data loss, irregularities, or errors to users. Errors in spreadsheet software data entry can often go unnoticed because spreadsheets do not enforce data types. Cells can contain any content: numbers, currencies, names, percentages, labels, and legends. The meaning of a cell is determined largely by the user rather than the software. Spreadsheets are an expressive and accessible technology for data analysis, but this creative power that spreadsheets afford to users is the 20 1 • Introduction to Computer Science Access for free at openstax.org",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.2 Computer Science across the Disciplines",
+              "raw_char_count": 3658,
+              "norm_char_count": 3612,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 726
+            },
+            "score": 0.031099324975891997,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[openstax-intro-cs_p19_para_000 | openstax-intro-cs:p19 | page 19]\nFigure 1.1 Computing is everywhere, affecting everyone, for better and for worse. (credit: modification of \"Whereas design is expansive, engineering is narrowing\" by Jessie Huynh/Critically Conscious Computing, CC0) Chapter Outline 1.1 Computer Science 1.2 Computer Science across the Disciplines 1.3 Computer Science and the Future of Society Introduction This textbook will introduce you to the exciting and complex world of computer science. In this chapter, you'll review the history of computer science, learn about its use in different fields, and explore how computer science will impact the future of society.\n\n[openstax-intro-cs_p31_para_000 | openstax-intro-cs:p31 | page 31]\nvery same power that limits spreadsheets as a data management and large-scale data analysis tool. The more data and the more people involved in a spreadsheet, the greater the potential for spreadsheet problems. The interdisciplinary field that applies computing to managing data and extracting information from data is called data science. Data scientists are practitioners who combine computing and data analysis skills with the domain knowledge specific to their field or business. The demand for data scientists is becoming increasingly important as more and more research and business contexts involve analyzing big data, or very large datasets that are not easily processed using spreadsheets.",
+        "context_ids": [
+          "openstax-intro-cs_p19_para_000",
+          "openstax-intro-cs_p31_para_000"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "definition of a spreadsheet",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-intro-cs_p31_para_000",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p31",
+            "page": 31,
+            "text": "very same power that limits spreadsheets as a data management and large-scale data analysis tool. The more data and the more people involved in a spreadsheet, the greater the potential for spreadsheet problems. The interdisciplinary field that applies computing to managing data and extracting information from data is called data science. Data scientists are practitioners who combine computing and data analysis skills with the domain knowledge specific to their field or business. The demand for data scientists is becoming increasingly important as more and more research and business contexts involve analyzing big data, or very large datasets that are not easily processed using spreadsheets.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.2 Computer Science across the Disciplines",
+              "raw_char_count": 4568,
+              "norm_char_count": 4517,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 698
+            },
+            "score": 0.032266458495966696,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p30_para_003",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p30",
+            "page": 30,
+            "text": "Spreadsheets are uniquely effective and accessible because they allow for the visual organization of data in whichever structure makes the most sense to the user. Instead of hiding data behind code, spreadsheets make data as transparent and up to date as possible. Although spreadsheets make computation accessible for millions of people across the world, they have several shortcomings. Unless limits are removed, many popular spreadsheet software products such as Microsoft Excel may have a limitation to the number of rows of data they can store that is less than the data of modern computers. One such example occurred in October 2020 when Public Health England failed to report 15,841 positive cases of COVID-19 in the United Kingdom due to mismanaged row limits in the spreadsheet used.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.2 Computer Science across the Disciplines",
+              "raw_char_count": 3658,
+              "norm_char_count": 3612,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 792
+            },
+            "score": 0.03225806451612903,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p30_para_004",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p30",
+            "page": 30,
+            "text": "This shortcoming attests not only to the technical limit on the number of rows supported by spreadsheets, but also to the design limitations of software that fails to communicate data loss, irregularities, or errors to users. Errors in spreadsheet software data entry can often go unnoticed because spreadsheets do not enforce data types. Cells can contain any content: numbers, currencies, names, percentages, labels, and legends. The meaning of a cell is determined largely by the user rather than the software. Spreadsheets are an expressive and accessible technology for data analysis, but this creative power that spreadsheets afford to users is the 20 1 • Introduction to Computer Science Access for free at openstax.org",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.2 Computer Science across the Disciplines",
+              "raw_char_count": 3658,
+              "norm_char_count": 3612,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 726
+            },
+            "score": 0.031099324975891997,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[openstax-intro-cs_p19_para_000 | openstax-intro-cs:p19 | page 19]\nFigure 1.1 Computing is everywhere, affecting everyone, for better and for worse. (credit: modification of \"Whereas design is expansive, engineering is narrowing\" by Jessie Huynh/Critically Conscious Computing, CC0) Chapter Outline 1.1 Computer Science 1.2 Computer Science across the Disciplines 1.3 Computer Science and the Future of Society Introduction This textbook will introduce you to the exciting and complex world of computer science. In this chapter, you'll review the history of computer science, learn about its use in different fields, and explore how computer science will impact the future of society.\n\n[openstax-intro-cs_p31_para_000 | openstax-intro-cs:p31 | page 31]\nvery same power that limits spreadsheets as a data management and large-scale data analysis tool. The more data and the more people involved in a spreadsheet, the greater the potential for spreadsheet problems. The interdisciplinary field that applies computing to managing data and extracting information from data is called data science. Data scientists are practitioners who combine computing and data analysis skills with the domain knowledge specific to their field or business. The demand for data scientists is becoming increasingly important as more and more research and business contexts involve analyzing big data, or very large datasets that are not easily processed using spreadsheets.",
+        "context_ids": [
+          "openstax-intro-cs_p19_para_000",
+          "openstax-intro-cs_p31_para_000"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "query_id": "q20",
+    "elapsed_s": 4.64
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Steve Jobs personal email address Macintosh 1984",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-intro-cs_p22_para_003",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p22",
+            "page": 22,
+            "text": "Many computing innovations were initially developed for military research and communication purposes, including the predecessor to the Internet, the ARPANET (Figure 1.3). 1 S. Golomb, \"Richard E. Bellman 1920–1984,\" n.d. https://www.nae.edu/189177/RICHARD-E-BELLMAN-19201984 2 Geeks for Geeks, \"Dynamic Programming or DP,\" 2024. https://www.geeksforgeeks.org/dynamic-programming/ 3 D. E. Knuth, \"George Forsythe and the Development of Computer Science,\" Communications of the ACM, vol. 15, no.8, pp. 722–723. 1972. https://dl.acm.org/doi/pdf/10.1145/361532.361538 12 1 • Introduction to Computer Science Access for free at openstax.org",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.1 Computer Science",
+              "raw_char_count": 2930,
+              "norm_char_count": 2894,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 635
+            },
+            "score": 0.0315136476426799,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p27_para_000",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p27",
+            "page": 27,
+            "text": "In one chapter of Black Software, Charlton McIlwain shares stories from \"The Vanguard\" of Black men and women who made a mark on computer science in its early years from the 1950s through the 1990s through the rise of personal computing and the Internet, but whose histories have largely been erased by the dominant Silicon Valley narratives. Their accomplishments include leading computer stores and developing early Internet social media platforms, news, and blog websites. For example, Roy L. Clay Sr., a member of the Silicon Valley Engineering Hall of Fame, helped Hewlett-Packard develop its first computer lab and create the company's first computers.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.1 Computer Science",
+              "raw_char_count": 4412,
+              "norm_char_count": 4363,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 658
+            },
+            "score": 0.030834914611005692,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p26_para_000",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p26",
+            "page": 26,
+            "text": "software engineers, designed their computer science curricula to teach the concepts that early computer companies such as IBM desperately needed. These courses had an emphasis on efficiency, performance, and scalability, because a university computer science education was only intended to produce software engineers. We live with the consequences of this design even today: the structure of this textbook inherits the borders between concepts originally imagined in the 1970s when university computer science education was only intended to prepare students for software development jobs.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.1 Computer Science",
+              "raw_char_count": 2297,
+              "norm_char_count": 2270,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 588
+            },
+            "score": 0.02844551282051282,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[openstax-intro-cs_p22_para_003 | openstax-intro-cs:p22 | page 22]\nMany computing innovations were initially developed for military research and communication purposes, including the predecessor to the Internet, the ARPANET (Figure 1.3). 1 S. Golomb, \"Richard E. Bellman 1920–1984,\" n.d. https://www.nae.edu/189177/RICHARD-E-BELLMAN-19201984 2 Geeks for Geeks, \"Dynamic Programming or DP,\" 2024. https://www.geeksforgeeks.org/dynamic-programming/ 3 D. E. Knuth, \"George Forsythe and the Development of Computer Science,\" Communications of the ACM, vol. 15, no.8, pp. 722–723. 1972. https://dl.acm.org/doi/pdf/10.1145/361532.361538 12 1 • Introduction to Computer Science Access for free at openstax.org\n\n[openstax-intro-cs_p27_para_000 | openstax-intro-cs:p27 | page 27]\nIn one chapter of Black Software, Charlton McIlwain shares stories from \"The Vanguard\" of Black men and women who made a mark on computer science in its early years from the 1950s through the 1990s through the rise of personal computing and the Internet, but whose histories have largely been erased by the dominant Silicon Valley narratives. Their accomplishments include leading computer stores and developing early Internet social media platforms, news, and blog websites. For example, Roy L. Clay Sr., a member of the Silicon Valley Engineering Hall of Fame, helped Hewlett-Packard develop its first computer lab and create the company's first computers.",
+        "context_ids": [
+          "openstax-intro-cs_p22_para_003",
+          "openstax-intro-cs_p27_para_000"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Steve Jobs personal email address Macintosh 1984",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-intro-cs_p22_para_003",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p22",
+            "page": 22,
+            "text": "Many computing innovations were initially developed for military research and communication purposes, including the predecessor to the Internet, the ARPANET (Figure 1.3). 1 S. Golomb, \"Richard E. Bellman 1920–1984,\" n.d. https://www.nae.edu/189177/RICHARD-E-BELLMAN-19201984 2 Geeks for Geeks, \"Dynamic Programming or DP,\" 2024. https://www.geeksforgeeks.org/dynamic-programming/ 3 D. E. Knuth, \"George Forsythe and the Development of Computer Science,\" Communications of the ACM, vol. 15, no.8, pp. 722–723. 1972. https://dl.acm.org/doi/pdf/10.1145/361532.361538 12 1 • Introduction to Computer Science Access for free at openstax.org",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.1 Computer Science",
+              "raw_char_count": 2930,
+              "norm_char_count": 2894,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 635
+            },
+            "score": 0.0315136476426799,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p27_para_000",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p27",
+            "page": 27,
+            "text": "In one chapter of Black Software, Charlton McIlwain shares stories from \"The Vanguard\" of Black men and women who made a mark on computer science in its early years from the 1950s through the 1990s through the rise of personal computing and the Internet, but whose histories have largely been erased by the dominant Silicon Valley narratives. Their accomplishments include leading computer stores and developing early Internet social media platforms, news, and blog websites. For example, Roy L. Clay Sr., a member of the Silicon Valley Engineering Hall of Fame, helped Hewlett-Packard develop its first computer lab and create the company's first computers.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.1 Computer Science",
+              "raw_char_count": 4412,
+              "norm_char_count": 4363,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 658
+            },
+            "score": 0.030834914611005692,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p26_para_000",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p26",
+            "page": 26,
+            "text": "software engineers, designed their computer science curricula to teach the concepts that early computer companies such as IBM desperately needed. These courses had an emphasis on efficiency, performance, and scalability, because a university computer science education was only intended to produce software engineers. We live with the consequences of this design even today: the structure of this textbook inherits the borders between concepts originally imagined in the 1970s when university computer science education was only intended to prepare students for software development jobs.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.1 Computer Science",
+              "raw_char_count": 2297,
+              "norm_char_count": 2270,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 588
+            },
+            "score": 0.02844551282051282,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[openstax-intro-cs_p22_para_003 | openstax-intro-cs:p22 | page 22]\nMany computing innovations were initially developed for military research and communication purposes, including the predecessor to the Internet, the ARPANET (Figure 1.3). 1 S. Golomb, \"Richard E. Bellman 1920–1984,\" n.d. https://www.nae.edu/189177/RICHARD-E-BELLMAN-19201984 2 Geeks for Geeks, \"Dynamic Programming or DP,\" 2024. https://www.geeksforgeeks.org/dynamic-programming/ 3 D. E. Knuth, \"George Forsythe and the Development of Computer Science,\" Communications of the ACM, vol. 15, no.8, pp. 722–723. 1972. https://dl.acm.org/doi/pdf/10.1145/361532.361538 12 1 • Introduction to Computer Science Access for free at openstax.org\n\n[openstax-intro-cs_p27_para_000 | openstax-intro-cs:p27 | page 27]\nIn one chapter of Black Software, Charlton McIlwain shares stories from \"The Vanguard\" of Black men and women who made a mark on computer science in its early years from the 1950s through the 1990s through the rise of personal computing and the Internet, but whose histories have largely been erased by the dominant Silicon Valley narratives. Their accomplishments include leading computer stores and developing early Internet social media platforms, news, and blog websites. For example, Roy L. Clay Sr., a member of the Silicon Valley Engineering Hall of Fame, helped Hewlett-Packard develop its first computer lab and create the company's first computers.",
+        "context_ids": [
+          "openstax-intro-cs_p22_para_003",
+          "openstax-intro-cs_p27_para_000"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Steve Jobs personal email address Macintosh 1984",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-intro-cs_p22_para_003",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p22",
+            "page": 22,
+            "text": "Many computing innovations were initially developed for military research and communication purposes, including the predecessor to the Internet, the ARPANET (Figure 1.3). 1 S. Golomb, \"Richard E. Bellman 1920–1984,\" n.d. https://www.nae.edu/189177/RICHARD-E-BELLMAN-19201984 2 Geeks for Geeks, \"Dynamic Programming or DP,\" 2024. https://www.geeksforgeeks.org/dynamic-programming/ 3 D. E. Knuth, \"George Forsythe and the Development of Computer Science,\" Communications of the ACM, vol. 15, no.8, pp. 722–723. 1972. https://dl.acm.org/doi/pdf/10.1145/361532.361538 12 1 • Introduction to Computer Science Access for free at openstax.org",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.1 Computer Science",
+              "raw_char_count": 2930,
+              "norm_char_count": 2894,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 635
+            },
+            "score": 0.0315136476426799,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p27_para_000",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p27",
+            "page": 27,
+            "text": "In one chapter of Black Software, Charlton McIlwain shares stories from \"The Vanguard\" of Black men and women who made a mark on computer science in its early years from the 1950s through the 1990s through the rise of personal computing and the Internet, but whose histories have largely been erased by the dominant Silicon Valley narratives. Their accomplishments include leading computer stores and developing early Internet social media platforms, news, and blog websites. For example, Roy L. Clay Sr., a member of the Silicon Valley Engineering Hall of Fame, helped Hewlett-Packard develop its first computer lab and create the company's first computers.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.1 Computer Science",
+              "raw_char_count": 4412,
+              "norm_char_count": 4363,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 658
+            },
+            "score": 0.030834914611005692,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p26_para_000",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p26",
+            "page": 26,
+            "text": "software engineers, designed their computer science curricula to teach the concepts that early computer companies such as IBM desperately needed. These courses had an emphasis on efficiency, performance, and scalability, because a university computer science education was only intended to produce software engineers. We live with the consequences of this design even today: the structure of this textbook inherits the borders between concepts originally imagined in the 1970s when university computer science education was only intended to prepare students for software development jobs.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.1 Computer Science",
+              "raw_char_count": 2297,
+              "norm_char_count": 2270,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 588
+            },
+            "score": 0.02844551282051282,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[openstax-intro-cs_p22_para_003 | openstax-intro-cs:p22 | page 22]\nMany computing innovations were initially developed for military research and communication purposes, including the predecessor to the Internet, the ARPANET (Figure 1.3). 1 S. Golomb, \"Richard E. Bellman 1920–1984,\" n.d. https://www.nae.edu/189177/RICHARD-E-BELLMAN-19201984 2 Geeks for Geeks, \"Dynamic Programming or DP,\" 2024. https://www.geeksforgeeks.org/dynamic-programming/ 3 D. E. Knuth, \"George Forsythe and the Development of Computer Science,\" Communications of the ACM, vol. 15, no.8, pp. 722–723. 1972. https://dl.acm.org/doi/pdf/10.1145/361532.361538 12 1 • Introduction to Computer Science Access for free at openstax.org\n\n[openstax-intro-cs_p27_para_000 | openstax-intro-cs:p27 | page 27]\nIn one chapter of Black Software, Charlton McIlwain shares stories from \"The Vanguard\" of Black men and women who made a mark on computer science in its early years from the 1950s through the 1990s through the rise of personal computing and the Internet, but whose histories have largely been erased by the dominant Silicon Valley narratives. Their accomplishments include leading computer stores and developing early Internet social media platforms, news, and blog websites. For example, Roy L. Clay Sr., a member of the Silicon Valley Engineering Hall of Fame, helped Hewlett-Packard develop its first computer lab and create the company's first computers.",
+        "context_ids": [
+          "openstax-intro-cs_p22_para_003",
+          "openstax-intro-cs_p27_para_000"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "query_id": "q_unans_test01",
+    "elapsed_s": 5.27
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "physical qubits surface code quantum error correction Section 2.1",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-intro-cs_p33_para_001",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p33",
+            "page": 33,
+            "text": "The role of information in natural sciences can also be found in the physics of quantum waves that carry information about physical effects, in the chemical equations that specify information about chemical reactions, in the information flows that drive the evolution of economies and political organizations, and in the information processes underlying social, management, and communication sciences.13 CONCEPTS IN PRACTICE Computer Science and DNA Research into DNA sequencing and indexing is opening new ways of helping medical providers offer personalized treatments for patients.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.2 Computer Science across the Disciplines",
+              "raw_char_count": 3302,
+              "norm_char_count": 3263,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 584
+            },
+            "score": 0.03252247488101534,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p33_para_004",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p33",
+            "page": 33,
+            "text": "In today's \"information age,\" information has more power than ever before to reshape society. Information scientists, data scientists, computational scientists—and, therefore, computer scientists—have a social responsibility: \"One cannot reap the reward when things go right but downplay the responsibility when things go wrong.\"14 13 P. J. Denning, \"Computing is a natural science,\" Commun. ACM, vol. 50, no. 7, pp. 13–18, July 2007. https://doi.org/10.1145/ 1272516.1272529. 14 R. Benjamin, \"Race after technology: Abolitionist tools for the new Jim code,\" 2019, Polity. 1.2 • Computer Science across the Disciplines 23",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.2 Computer Science across the Disciplines",
+              "raw_char_count": 3302,
+              "norm_char_count": 3263,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 621
+            },
+            "score": 0.029571646010002173,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p49_para_000",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p49",
+            "page": 49,
+            "text": "Figure 2.1 A work environment, such as this modifiable \"sp.ace\" at Johnson Space Center where furniture can move and any surfaces can be written on, can encourage computational thinking and lead to innovation. (credit: modification of \"The sp.ace in Building 29 at Johnson Space Center\" by Christopher Gerty, NASA JSC/APPEL Knowledge Services, Public Domain) Chapter Outline 2.1 Computational Thinking 2.2 Architecting Solutions with Adaptive Design Reuse in Mind 2.3 Evolving Architectures into Useable Products Introduction In the rapidly evolving landscape of technology and innovation in various domains, computational thinking promotes design reusability and is a fundamental skill set essential for problem-solving.",
+            "metadata": {
+              "chapter": "Chapter 2: Computational Thinking and Design Reusability",
+              "section": "Introduction",
+              "raw_char_count": 2506,
+              "norm_char_count": 2476,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 721
+            },
+            "score": 0.028991596638655463,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[openstax-intro-cs_p33_para_001 | openstax-intro-cs:p33 | page 33]\nThe role of information in natural sciences can also be found in the physics of quantum waves that carry information about physical effects, in the chemical equations that specify information about chemical reactions, in the information flows that drive the evolution of economies and political organizations, and in the information processes underlying social, management, and communication sciences.13 CONCEPTS IN PRACTICE Computer Science and DNA Research into DNA sequencing and indexing is opening new ways of helping medical providers offer personalized treatments for patients.\n\n[openstax-intro-cs_p33_para_004 | openstax-intro-cs:p33 | page 33]\nIn today's \"information age,\" information has more power than ever before to reshape society. Information scientists, data scientists, computational scientists—and, therefore, computer scientists—have a social responsibility: \"One cannot reap the reward when things go right but downplay the responsibility when things go wrong.\"14 13 P. J. Denning, \"Computing is a natural science,\" Commun. ACM, vol. 50, no. 7, pp. 13–18, July 2007. https://doi.org/10.1145/ 1272516.1272529. 14 R. Benjamin, \"Race after technology: Abolitionist tools for the new Jim code,\" 2019, Polity. 1.2 • Computer Science across the Disciplines 23",
+        "context_ids": [
+          "openstax-intro-cs_p33_para_001",
+          "openstax-intro-cs_p33_para_004"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "physical qubits needed for surface code quantum error correction",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-intro-cs_p33_para_001",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p33",
+            "page": 33,
+            "text": "The role of information in natural sciences can also be found in the physics of quantum waves that carry information about physical effects, in the chemical equations that specify information about chemical reactions, in the information flows that drive the evolution of economies and political organizations, and in the information processes underlying social, management, and communication sciences.13 CONCEPTS IN PRACTICE Computer Science and DNA Research into DNA sequencing and indexing is opening new ways of helping medical providers offer personalized treatments for patients.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.2 Computer Science across the Disciplines",
+              "raw_char_count": 3302,
+              "norm_char_count": 3263,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 584
+            },
+            "score": 0.032266458495966696,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p23_para_002",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p23",
+            "page": 23,
+            "text": "The batteries that power many of today's smartphones and mobile devices rely on lithium, a soft, silvery metal mostly harvested from minerals in Australia, Zimbabwe, and Brazil, as well as from continental brine deposits in Chile, Argentina, and Bolivia. Computer engineers combine these substances to build circuitry and information pathways at the microscopic scale to form the physical basis for modern computers. However, the physical basis of computers was not always silicon. The Electronic Numerical Integrator and Computer (ENIAC) was completed in 1945, making it one of the earliest digital computers. The ENIAC operated on different physical principles.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.1 Computer Science",
+              "raw_char_count": 2979,
+              "norm_char_count": 2946,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 663
+            },
+            "score": 0.030834914611005692,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p26_para_000",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p26",
+            "page": 26,
+            "text": "software engineers, designed their computer science curricula to teach the concepts that early computer companies such as IBM desperately needed. These courses had an emphasis on efficiency, performance, and scalability, because a university computer science education was only intended to produce software engineers. We live with the consequences of this design even today: the structure of this textbook inherits the borders between concepts originally imagined in the 1970s when university computer science education was only intended to prepare students for software development jobs.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.1 Computer Science",
+              "raw_char_count": 2297,
+              "norm_char_count": 2270,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 588
+            },
+            "score": 0.02877846790890269,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[openstax-intro-cs_p33_para_001 | openstax-intro-cs:p33 | page 33]\nThe role of information in natural sciences can also be found in the physics of quantum waves that carry information about physical effects, in the chemical equations that specify information about chemical reactions, in the information flows that drive the evolution of economies and political organizations, and in the information processes underlying social, management, and communication sciences.13 CONCEPTS IN PRACTICE Computer Science and DNA Research into DNA sequencing and indexing is opening new ways of helping medical providers offer personalized treatments for patients.\n\n[openstax-intro-cs_p33_para_004 | openstax-intro-cs:p33 | page 33]\nIn today's \"information age,\" information has more power than ever before to reshape society. Information scientists, data scientists, computational scientists—and, therefore, computer scientists—have a social responsibility: \"One cannot reap the reward when things go right but downplay the responsibility when things go wrong.\"14 13 P. J. Denning, \"Computing is a natural science,\" Commun. ACM, vol. 50, no. 7, pp. 13–18, July 2007. https://doi.org/10.1145/ 1272516.1272529. 14 R. Benjamin, \"Race after technology: Abolitionist tools for the new Jim code,\" 2019, Polity. 1.2 • Computer Science across the Disciplines 23",
+        "context_ids": [
+          "openstax-intro-cs_p33_para_001",
+          "openstax-intro-cs_p33_para_004"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "physical qubits needed for surface code quantum error correction",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-intro-cs_p33_para_001",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p33",
+            "page": 33,
+            "text": "The role of information in natural sciences can also be found in the physics of quantum waves that carry information about physical effects, in the chemical equations that specify information about chemical reactions, in the information flows that drive the evolution of economies and political organizations, and in the information processes underlying social, management, and communication sciences.13 CONCEPTS IN PRACTICE Computer Science and DNA Research into DNA sequencing and indexing is opening new ways of helping medical providers offer personalized treatments for patients.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.2 Computer Science across the Disciplines",
+              "raw_char_count": 3302,
+              "norm_char_count": 3263,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 584
+            },
+            "score": 0.032266458495966696,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p23_para_002",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p23",
+            "page": 23,
+            "text": "The batteries that power many of today's smartphones and mobile devices rely on lithium, a soft, silvery metal mostly harvested from minerals in Australia, Zimbabwe, and Brazil, as well as from continental brine deposits in Chile, Argentina, and Bolivia. Computer engineers combine these substances to build circuitry and information pathways at the microscopic scale to form the physical basis for modern computers. However, the physical basis of computers was not always silicon. The Electronic Numerical Integrator and Computer (ENIAC) was completed in 1945, making it one of the earliest digital computers. The ENIAC operated on different physical principles.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.1 Computer Science",
+              "raw_char_count": 2979,
+              "norm_char_count": 2946,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 663
+            },
+            "score": 0.030834914611005692,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-intro-cs_p26_para_000",
+            "source_id": "openstax-intro-cs",
+            "source": "openstax-intro-cs:p26",
+            "page": 26,
+            "text": "software engineers, designed their computer science curricula to teach the concepts that early computer companies such as IBM desperately needed. These courses had an emphasis on efficiency, performance, and scalability, because a university computer science education was only intended to produce software engineers. We live with the consequences of this design even today: the structure of this textbook inherits the borders between concepts originally imagined in the 1970s when university computer science education was only intended to prepare students for software development jobs.",
+            "metadata": {
+              "chapter": "Chapter 1: Introduction to Computer Science",
+              "section": "1.1 Computer Science",
+              "raw_char_count": 2297,
+              "norm_char_count": 2270,
+              "chunk_type": "paragraph_semantic",
+              "char_length": 588
+            },
+            "score": 0.02877846790890269,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[openstax-intro-cs_p33_para_001 | openstax-intro-cs:p33 | page 33]\nThe role of information in natural sciences can also be found in the physics of quantum waves that carry information about physical effects, in the chemical equations that specify information about chemical reactions, in the information flows that drive the evolution of economies and political organizations, and in the information processes underlying social, management, and communication sciences.13 CONCEPTS IN PRACTICE Computer Science and DNA Research into DNA sequencing and indexing is opening new ways of helping medical providers offer personalized treatments for patients.\n\n[openstax-intro-cs_p33_para_004 | openstax-intro-cs:p33 | page 33]\nIn today's \"information age,\" information has more power than ever before to reshape society. Information scientists, data scientists, computational scientists—and, therefore, computer scientists—have a social responsibility: \"One cannot reap the reward when things go right but downplay the responsibility when things go wrong.\"14 13 P. J. Denning, \"Computing is a natural science,\" Commun. ACM, vol. 50, no. 7, pp. 13–18, July 2007. https://doi.org/10.1145/ 1272516.1272529. 14 R. Benjamin, \"Race after technology: Abolitionist tools for the new Jim code,\" 2019, Polity. 1.2 • Computer Science across the Disciplines 23",
+        "context_ids": [
+          "openstax-intro-cs_p33_para_001",
+          "openstax-intro-cs_p33_para_004"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "query_id": "q_unans_test02",
+    "elapsed_s": 4.87
+  }
+]

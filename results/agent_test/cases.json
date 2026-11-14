@@ -1,0 +1,100 @@
+[
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "What physical technology did the ENIAC use instead of silicon?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Vacuum tubes",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 23,
+        "evidence": "Instead of silicon, the ENIAC used the technology of a vacuum tube, a physical device like a light bulb that was used as memory in early digital computers."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Why did the One Laptop per Child (OLPC) educational vision fail to truly materialize?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Children often used the computers for entertainment rather than the learning experiences intended, without adequate educational infrastructure.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 29,
+        "evidence": "OLPC's vision for education never truly materialized because children often used the computers for their own entertainment rather than the learning experiences"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "What role does scientific evaluation play in human-computer interaction (HCI)?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "It emphasizes experimentation and evaluation of the interface between humans and computers to design better computer systems.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 33,
+        "evidence": "emphasizes experimentation and evaluation of the interface (boundary) between humans and computers, often toward designing better computer systems."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "In section 2.1 Computational Thinking, what does decomposition involve when tackling complex problems?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Solving a complex problem by breaking it up into smaller, more manageable tasks.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 54,
+        "evidence": "Decomposition involves solving a complex problem by breaking it up into smaller, more manageable tasks."
+      }
+    ],
+    "filter": {
+      "section": "2.1 Computational Thinking"
+    }
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "In the Chapter 1 Review, how is a spreadsheet defined?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "A data-centric programming environment where data is organized into cells in a table.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 43,
+        "evidence": "spreadsheet data-centric programming environment where data is organized into cells in a table"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q_unans_test01",
+    "split": "test",
+    "question": "What was Steve Jobs' exact personal email address when he introduced the Apple Macintosh in 1984 as recorded in Chapter 1?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The text mentions historical computer systems but never provides Steve Jobs' personal email address."
+  },
+  {
+    "id": "q_unans_test02",
+    "split": "test",
+    "question": "According to Section 2.1, how many physical qubits are needed for surface code quantum error correction?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Section 2.1 covers computational thinking concepts (decomposition, pattern recognition, abstraction, algorithms) in classical CS, not quantum error correction physical qubits."
+  }
+]

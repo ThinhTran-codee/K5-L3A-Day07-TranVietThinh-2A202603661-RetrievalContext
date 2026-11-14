@@ -1,0 +1,262 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "What mathematical technique did Richard Bellman invent in 1953 to solve complex problems?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Dynamic programming",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 22,
+        "evidence": "In 1953, Bellman invented dynamic programming,1 which is a mathematical optimization methodology and a technique for computer programming."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Why is the ENIAC notable in computer history?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "It was the first general-purpose computer that could run any program specified by a programmer.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 23,
+        "evidence": "ENIAC is notable in computer history because it was the first general-purpose computer, meaning that it could run not just a single program but rather any program specified by a programmer."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "What is an example of a task that neither computers nor humans can perform?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Accurately predicting chaotic systems like long-term weather patterns.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 25,
+        "evidence": "On the flip side, there are tasks that neither computers nor humans can perform, such as accurately predicting chaotic systems like long-term weather patterns."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "What early computer network, circa 1974, was an early predecessor to the Internet?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "The ARPANET",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 23,
+        "evidence": "The ARPANET, circa 1974, was an early predecessor to the Internet. It allowed computers at Pentagon-funded research facilities to communicate over phone lines."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "How do cooking recipes exemplify algorithmic procedures in computer science?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Recipes are algorithms with precise directions for ingredient amounts, combination steps, and cooking methods.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 21,
+        "evidence": "recipes to prepare food are algorithms with precise directions for ingredient amounts, the process to combine these, and the temperatures and cooking methods needed to transform the combined ingredients into a specific dish."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "By what percentage does the U.S. Bureau of Labor Statistics project jobs for computer research scientists to grow by 2033?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "26%",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 28,
+        "evidence": "by 2033, the number of jobs available for computer and information research scientists is expected to increase by 26%."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Under what condition do spreadsheets become prone to data management problems?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "The more data and the more people involved in a spreadsheet.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 31,
+        "evidence": "The more data and the more people involved in a spreadsheet, the greater the potential for spreadsheet problems."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "What discipline emphasizes experimentation and evaluation of the boundary between humans and computers?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Human-computer interaction (HCI)",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 33,
+        "evidence": "Science plays a key role in human-computer interaction, which emphasizes experimentation and evaluation of the interface (boundary) between humans and computers"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "What is an adversarial attack in machine learning?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Sample input designed to cause a system to behave unexpectedly, incorrectly, or inappropriately.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 43,
+        "evidence": "adversarial attack sample input (e.g., an image) that is designed to cause a system to behave problematically"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "What ethical obligation do computer scientists have regarding technological knowledge?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "An obligation to be ethical and good stewards of technology with an emphasis on responsible computing.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 36,
+        "evidence": "Computer scientists have an obligation to be ethical and good stewards of technology with an emphasis on responsible computing."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "In section 1.1 Computer Science, what visa category helps U.S. employers address technology worker shortages?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "H-1B visas",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 28,
+        "evidence": "To fill some of these jobs, U.S. employers likely will continue to rely on H-1B visas."
+      }
+    ],
+    "filter": {
+      "section": "1.1 Computer Science"
+    }
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "In the Chapter 1 Review, how is big data defined?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Very large datasets that aren't easily processed using spreadsheets.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 43,
+        "evidence": "big data very large datasets that aren't easily processed using spreadsheets"
+      }
+    ],
+    "filter": {
+      "section": "Chapter 1 Review"
+    }
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "How does Al Aho describe the concept of computational thinking?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "The thought processes involved in formulating problems so their solutions can be represented as computational steps and algorithms.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 51,
+        "evidence": "describes computational thinking as \"the thought processes involved in formulating problems so their solutions can be represented as computational steps and algorithms.\""
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "What is the definition of decomposition in computational thinking?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Systematically breaking down a complex problem or system into smaller, more manageable parts or subproblems.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 53,
+        "evidence": "Decomposition is a fundamental concept in computational thinking, representing the process of systematically breaking down a complex problem or system into smaller, more manageable parts or subproblems."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "How does pattern recognition assist the decomposition process when instructing a robot to prepare a dish?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "It groups identified features into categories such as ingredients, equipment, and actions.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 54,
+        "evidence": "Pattern recognition makes it possible to group all the different features considered in decomposition into categories."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q_unans_dev01",
+    "split": "dev",
+    "question": "What is the tuition fee and admission deadline for computer science students at VinUniversity mentioned in Section 1.2?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The textbook is an academic introductory CS text from OpenStax and does not contain tuition fees or admission information for VinUniversity."
+  },
+  {
+    "id": "q_unans_dev02",
+    "split": "dev",
+    "question": "According to Chapter 1, what exact GPU VRAM is required to fine-tune a 70-billion parameter transformer model with LoRA?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chapter 1 discusses historical foundations and definitions of computer science, with no technical specifications on modern GPU VRAM for transformer fine-tuning."
+  }
+]
